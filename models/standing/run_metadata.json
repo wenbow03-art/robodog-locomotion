@@ -1,0 +1,53 @@
+{
+  "task": "lz_q1l_flat_v2_gait",
+  "source_checkpoint": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/flat_lz_q1l_v2_posture/posture_resume20_to500_20261024_234507_3087344/model_500.pt",
+  "source_sha256": "ed10805f5778f24b1c249dbe254460473acb8ac39d85c9f85142fc2b93816e1f",
+  "source_iteration": 500,
+  "start_iteration": 0,
+  "target_iterations": 200,
+  "additional_iterations": 200,
+  "initialization": "Full weights, both optimizers and saved PPO learning rate; new stage counter and restarted simulation/RNG",
+  "initial_learning_rate": 3.3750000000000014e-05,
+  "save_interval": 50,
+  "checkpoint_iterations": [
+    50,
+    100,
+    150,
+    200
+  ],
+  "auto_stop": false,
+  "monitoring": "Training rewards and direction/contact/force diagnostics every update; log only",
+  "gpu": "GPU-13617fc8-1298-8d94-cbe1-5afdcb1d341c",
+  "pid": 3235974,
+  "seed": 1,
+  "reward_validation": "/home/xiaohengli/Program/robo_competition/media/v2_gait_reward_review_20261025/gpu_attempt01",
+  "feet": [
+    "pitch03_leg_b_l_link",
+    "pitch03_leg_b_r_link",
+    "pitch03_leg_f_l_link",
+    "pitch03_leg_f_r_link"
+  ],
+  "code_sha256": {
+    "tools/train_lz_q1l_v2_posture.py": "17bc944ee4ca2f548dd07a1874b6c09ae7e3d0f214e282ceae14441d167f6645",
+    "tools/eval_lz_q1l_posture.py": "73c54e8f44323ffedbc9a1670d082e335305d5bdbbfb41087ef31441c42496e9",
+    "tools/start_lz_q1l_v2_posture_500.sh": "b2eca882236567b688d189cfe074d53cf05f706b4efd590efa8cfe01d8d73d49",
+    "tools/train_lz_q1l_v2_unified.py": "b2e251009525adae3cb6e0d1fde1463fc86aaed8bcbf33539f4a706c72dbdcd8",
+    "tools/train_lz_q1l_v1_support_500.py": "bcc9b9ffd985a889f0238be4316e1d0ce5a2e0fcd77ea6c501f1924921f865c1",
+    "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2_config.py": "44fcdb534da97380ad6afbdca0ea6b72f58eda09d0cde9ec825468c522b4bfcf",
+    "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2.py": "3b98153e457bc8f6417abd80a0f974a5a43a571ad55308992a9f55a20dd200b3",
+    "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_config.py": "6c76372268c79b00c2791f8a895d8013f060563c3a55cfdd2bdadb9badf54db7",
+    "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l.py": "ee697c70634f5dffb0b1e3020064ced5f3a1d9c02d7d53b48d58e3a64210901f",
+    "HIMLoco/legged_gym/legged_gym/envs/base/legged_robot.py": "4be9c8a9dac2e41a755465410837bb0f7c01bd5a911d175b1b726c73f477546d",
+    "HIMLoco/legged_gym/legged_gym/envs/base/legged_robot_config.py": "a0230fa99691a3dd28f077bf30a2432efb998def950b2be98f623fd1b303d55b",
+    "HIMLoco/legged_gym/legged_gym/envs/__init__.py": "a61372a9c9c1489f69e1e6806f745457376fb0881a1fac9d0274e84644f89132",
+    "HIMLoco/rsl_rl/rsl_rl/runners/him_on_policy_runner.py": "0438cc32d2d787a72c0ad0878452d84c69d6b1082885661187a3e46089aceb4c",
+    "HIMLoco/rsl_rl/rsl_rl/algorithms/him_ppo.py": "65ba76bfd9145c55a2b3c8df47b280fa38e76e3004c9a149f4913a8a6a7fb20b",
+    "HIMLoco/rsl_rl/rsl_rl/modules/him_actor_critic.py": "c516cb3b7bc3b6734182547bacaa6eb6fb0604fac9a0708ff87d869a79c17cc6",
+    "HIMLoco/rsl_rl/rsl_rl/modules/him_estimator.py": "a0cb97016fce9714168f357358dd50d0fb2eaba0017fe37ed5bbc469727024d2",
+    "HIMLoco/legged_gym/resources/robots/lz_q1l/urdf/lz_q1l.urdf": "3c4a5128e3ca05fd803de8859290354aad2b76137da11d0a8397dd97f7d59dda",
+    "tools/train_lz_q1l_v2_gait.py": "5dbac763f2939d22b63b5ddbc27302747a4dcbb8561e1322f909d99803ce22c7",
+    "tools/start_lz_q1l_v2_gait_200.sh": "4e6ddd5cd17d46f6f61dc265f546e42625de23eaaa40673f3eb2f522e95f5026",
+    "tools/queue_lz_q1l_v2_gait.py": "0a85af81a15aa811496ba7823f1f6e649a2e318a38f40107030d08676dc84618",
+    "tools/check_lz_q1l_v2_gait.py": "76a89e9fd50fa79d66b32170153ff2fb459aa08ae5a2a4bdb5e188e6d1d378ca"
+  }
+}

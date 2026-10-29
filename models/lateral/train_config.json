@@ -1,0 +1,50 @@
+{
+  "algorithm": {
+    "clip_param": 0.2,
+    "desired_kl": 0.01,
+    "entropy_coef": 0.01,
+    "gamma": 0.99,
+    "lam": 0.95,
+    "learning_rate": 1e-05,
+    "max_grad_norm": 1.0,
+    "num_learning_epochs": 5,
+    "num_mini_batches": 4,
+    "schedule": "fixed",
+    "use_clipped_value_loss": true,
+    "value_loss_coef": 1.0
+  },
+  "init_member_classes": {},
+  "policy": {
+    "activation": "elu",
+    "actor_hidden_dims": [
+      512,
+      256,
+      128
+    ],
+    "critic_hidden_dims": [
+      512,
+      256,
+      128
+    ],
+    "init_noise_std": 1.0
+  },
+  "runner": {
+    "algorithm_class_name": "HIMPPO",
+    "checkpoint": -1,
+    "experiment_name": "flat_lz_q1l_soft_slip",
+    "load_run": -1,
+    "log_directory": "logs2",
+    "max_iterations": 300,
+    "num_steps_per_env": 100,
+    "policy_class_name": "HIMActorCritic",
+    "resume": false,
+    "resume_path": null,
+    "run_name": "",
+    "runner_class_name": "HIMSideCoordinationRunner",
+    "save_interval": 50,
+    "source_checkpoint": "logs2/flat_lz_q1l_front_pose/front_pose_300_20261029_164847_3445246/model_300.pt",
+    "source_sha256": "66ff4a30b5c904d94650c0a2401191f7f4307a3e0fa984ad36c5b544f6bd88c0"
+  },
+  "runner_class_name": "HIMOnPolicyRunner",
+  "seed": 1
+}

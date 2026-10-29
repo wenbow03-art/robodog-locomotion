@@ -1,0 +1,177 @@
+{
+  "url": "http://localhost:8769/new_v3_stand_walk_run_20261027_192419_VEuh/",
+  "video": "/home/xiaohengli/Program/robo_competition/media/v3_stand_walk_20261027/run_20261027_192419_VEuh/result/hybrid_stand_walk_transition.mp4",
+  "server_directory": "/home/xiaohengli/Program/robo_competition/media/v8_right_20261023/attempt_20261023_210849_Cjru/public/new_v3_stand_walk_run_20261027_192419_VEuh",
+  "metadata": {
+    "variant": "baseline_stand_model800_walk_blend_0.3s",
+    "task": "lz_q1l_flat_stand_walk",
+    "checkpoint": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/flat_lz_q1l_v3_right_rear_split/rh_split_from600_to800_20261027_172314_1964027/model_800.pt",
+    "checkpoint_sha256": "23d99708723bacb0a5cc5c473a66e76f076a3444a738a1a27c1a9f9d6b937086",
+    "iteration": 800,
+    "duration_s": 32,
+    "fps": 25,
+    "frames": 800,
+    "feet": [
+      "pitch03_leg_b_l_link",
+      "pitch03_leg_b_r_link",
+      "pitch03_leg_f_l_link",
+      "pitch03_leg_f_r_link"
+    ],
+    "segments": [
+      {
+        "name": "STAND",
+        "command": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mirrored": false,
+        "valid_samples": 350,
+        "first_reset_step": null,
+        "mean_velocity": [
+          0.00046363922179417776,
+          0.00039905032348477626,
+          1.2901845713193844e-05
+        ],
+        "mean_yaw_rate": 0.002092241838690825,
+        "contact_rate": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "FORWARD",
+        "command": [
+          0.35,
+          0.0,
+          0.0
+        ],
+        "mirrored": false,
+        "valid_samples": 350,
+        "first_reset_step": null,
+        "mean_velocity": [
+          0.3859128823450633,
+          -0.03161048893692039,
+          0.028076695810970186
+        ],
+        "mean_yaw_rate": 0.013463246724568308,
+        "contact_rate": [
+          0.5114285714285715,
+          0.64,
+          0.6714285714285714,
+          0.6742857142857143
+        ]
+      },
+      {
+        "name": "STOP",
+        "command": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mirrored": false,
+        "valid_samples": 350,
+        "first_reset_step": null,
+        "mean_velocity": [
+          -0.00013036503866633862,
+          0.00030152677639015175,
+          0.0004992536272103669
+        ],
+        "mean_yaw_rate": -0.0028388192360109445,
+        "contact_rate": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "RESTART",
+        "command": [
+          0.35,
+          0.0,
+          0.0
+        ],
+        "mirrored": false,
+        "valid_samples": 350,
+        "first_reset_step": null,
+        "mean_velocity": [
+          0.38605894224984305,
+          -0.032270002551875746,
+          0.027690936687202856
+        ],
+        "mean_yaw_rate": 0.0132333237884034,
+        "contact_rate": [
+          0.5142857142857142,
+          0.64,
+          0.66,
+          0.68
+        ]
+      }
+    ],
+    "resets": [],
+    "gpu": "GPU-13617fc8-1298-8d94-cbe1-5afdcb1d341c",
+    "graphics_device": "2",
+    "controller": "Baseline standing, model800 forward, 0.3s RH-only blend; left mirror retained",
+    "protocol": "One nominal reset, 2s baseline stand preroll; continuous 8s stand, 8s forward, 8s stop, 8s restart. No resets at command changes. Noise/domain randomization disabled. No failures removed.",
+    "limitations": "Single nominal trial per action, not a robustness evaluation.",
+    "source_sha256": {
+      "/home/xiaohengli/Program/robo_competition/media/v3_stand_walk_20261027/record.py": "216400b088293c68597fb52e10e5dcff87de6cf483c4f1d1ba1a9abb5558e03d",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/legged_gym/envs/__init__.py": "e30acb4b1b91d445659253972a6713ea0ec749ea96e22a069d17150daf3bc6cb",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/legged_gym/envs/base/legged_robot.py": "4be9c8a9dac2e41a755465410837bb0f7c01bd5a911d175b1b726c73f477546d",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/legged_gym/envs/base/legged_robot_config.py": "a0230fa99691a3dd28f077bf30a2432efb998def950b2be98f623fd1b303d55b",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l.py": "ee697c70634f5dffb0b1e3020064ced5f3a1d9c02d7d53b48d58e3a64210901f",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2.py": "90cbcb59747faf9d264cd5cba90c1d54be0d68d412d9eb25ed94d1aaa2a3936d",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2_config.py": "95c0d16ab4ce7df824a7a2ff0b071e3e937efa926bb290d8b8563eb19df0a2c6",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_config.py": "6c76372268c79b00c2791f8a895d8013f060563c3a55cfdd2bdadb9badf54db7",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/legged_gym/utils/lz_q1l_mirror.py": "edd8b4e397902c4175b961595f1a936e2cf82abb708fac116f438cd6b4f5b216",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/resources/robots/lz_q1l/urdf/lz_q1l.urdf": "3c4a5128e3ca05fd803de8859290354aad2b76137da11d0a8397dd97f7d59dda",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/rsl_rl/rsl_rl/algorithms/him_ppo.py": "65ba76bfd9145c55a2b3c8df47b280fa38e76e3004c9a149f4913a8a6a7fb20b",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/rsl_rl/rsl_rl/algorithms/him_rear_teacher_ppo.py": "9946578b199c604dbf1f97fb5cbb3b5d48297d594c7dbff420370419793b9cb5",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/rsl_rl/rsl_rl/algorithms/him_right_rear_only_ppo.py": "98aba8f038efb316f5563f311cfe9ad730f8d2bd99fb2a797cc164896f4023c7",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/rsl_rl/rsl_rl/algorithms/him_right_rear_split_ppo.py": "566265fbca3ba46b4024c6e86bdd7c026b55e996c7a8e840d4637b0ba8b0ece9",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/rsl_rl/rsl_rl/modules/him_actor_critic.py": "c516cb3b7bc3b6734182547bacaa6eb6fb0604fac9a0708ff87d869a79c17cc6",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/rsl_rl/rsl_rl/modules/him_estimator.py": "a0cb97016fce9714168f357358dd50d0fb2eaba0017fe37ed5bbc469727024d2",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/rsl_rl/rsl_rl/modules/him_right_rear_only.py": "32e77fee961213011531d5d396b35999c3efd8e38e07dcc21af45666ded8d79b",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/rsl_rl/rsl_rl/runners/him_on_policy_runner.py": "a522d0bf71fa3142c67e44f16a61c176a627329c1bd8b7701ed5097cae770f49",
+      "/home/xiaohengli/Program/robo_competition/tools/check_lz_q1l_v2_gait.py": "76a89e9fd50fa79d66b32170153ff2fb459aa08ae5a2a4bdb5e188e6d1d378ca",
+      "/home/xiaohengli/Program/robo_competition/tools/check_lz_q1l_v3_right_rear_only.py": "7bdc0c15830c9f8bf5bb78af79c0a7091d9ff23923ae6a93472ede4ea27926fa",
+      "/home/xiaohengli/Program/robo_competition/tools/check_lz_q1l_v3_right_rear_only.sh": "41db2b9733196fdd9efe42f784b598ec4aa966b2b049991c7fe42d8b117dfb63",
+      "/home/xiaohengli/Program/robo_competition/tools/eval_lz_q1l_posture.py": "73c54e8f44323ffedbc9a1670d082e335305d5bdbbfb41087ef31441c42496e9",
+      "/home/xiaohengli/Program/robo_competition/tools/launch_lz_q1l_v3_right_rear_split_600.py": "c96caca5b8c3a28aaeca776ea75d5352e0c3b82dfc70b9a1d9f831ef895f25e7",
+      "/home/xiaohengli/Program/robo_competition/tools/queue_lz_q1l_v2_gait.py": "0a85af81a15aa811496ba7823f1f6e649a2e318a38f40107030d08676dc84618",
+      "/home/xiaohengli/Program/robo_competition/tools/queue_lz_q1l_v3_right_rear_split_800.py": "d1796c2737c84e75ac1e5be6134b79e613019f96b8eced241b186e816822b2fd",
+      "/home/xiaohengli/Program/robo_competition/tools/start_lz_q1l_v2_gait_200.sh": "4e6ddd5cd17d46f6f61dc265f546e42625de23eaaa40673f3eb2f522e95f5026",
+      "/home/xiaohengli/Program/robo_competition/tools/start_lz_q1l_v2_posture_500.sh": "b2eca882236567b688d189cfe074d53cf05f706b4efd590efa8cfe01d8d73d49",
+      "/home/xiaohengli/Program/robo_competition/tools/start_lz_q1l_v3_right_rear_split_600.sh": "f7e1eef13329d5f5a9cdf520b86a24609a0588594a2c5e8c60c75e3eb11cc9dd",
+      "/home/xiaohengli/Program/robo_competition/tools/start_lz_q1l_v3_right_rear_split_800.sh": "0e474be1186d293d6cca48674a8c501cfd67499bf304da57439725e6858531d6",
+      "/home/xiaohengli/Program/robo_competition/tools/train_lz_q1l_v1_support_500.py": "bcc9b9ffd985a889f0238be4316e1d0ce5a2e0fcd77ea6c501f1924921f865c1",
+      "/home/xiaohengli/Program/robo_competition/tools/train_lz_q1l_v2_gait.py": "5dbac763f2939d22b63b5ddbc27302747a4dcbb8561e1322f909d99803ce22c7",
+      "/home/xiaohengli/Program/robo_competition/tools/train_lz_q1l_v2_posture.py": "17bc944ee4ca2f548dd07a1874b6c09ae7e3d0f214e282ceae14441d167f6645",
+      "/home/xiaohengli/Program/robo_competition/tools/train_lz_q1l_v2_unified.py": "b2e251009525adae3cb6e0d1fde1463fc86aaed8bcbf33539f4a706c72dbdcd8",
+      "/home/xiaohengli/Program/robo_competition/tools/train_lz_q1l_v3_right_rear_only.py": "3cf87cf8f41154c13b31d5c9617486139236fd9ad65d370de647f1a56d383168",
+      "/home/xiaohengli/Program/robo_competition/tools/train_lz_q1l_v3_right_rear_split.py": "76b56e2f5369d485ba30a192a4c2fa9380a7839716bd8994fae03a230428acae",
+      "/home/xiaohengli/Program/robo_competition/tools/train_lz_q1l_v3_right_rear_split_extend.py": "ad6237f5919b4e7bff0f845580c0841cf580d0d884341af401f98b211f9908c1",
+      "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/legged_gym/utils/lz_q1l_stand_walk.py": "a1d7c0358dc8e59ae3b4434a1074dea8ecb043ac38c169d9567e033d6e9610be"
+    }
+  },
+  "video_check": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 480,
+        "r_frame_rate": "25/1",
+        "nb_frames": "800"
+      }
+    ],
+    "format": {
+      "duration": "32.000000",
+      "size": "2955335"
+    }
+  }
+}

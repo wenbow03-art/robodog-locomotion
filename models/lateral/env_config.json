@@ -1,0 +1,360 @@
+{
+  "asset": {
+    "angular_damping": 0.0,
+    "armature": 0.0,
+    "collapse_fixed_joints": true,
+    "default_dof_drive_mode": 3,
+    "density": 0.001,
+    "disable_gravity": false,
+    "file": "{LEGGED_GYM_ROOT_DIR}/resources/robots/lz_q1l/urdf/lz_q1l.urdf",
+    "fix_base_link": false,
+    "flip_visual_attachments": false,
+    "foot_name": "pitch03",
+    "linear_damping": 0.0,
+    "max_angular_velocity": 1000.0,
+    "max_linear_velocity": 1000.0,
+    "name": "lz_q1l",
+    "penalize_contacts_on": [
+      "pitch01",
+      "pitch02"
+    ],
+    "replace_cylinder_with_capsule": true,
+    "self_collisions": 1,
+    "terminate_after_contacts_on": [
+      "base"
+    ],
+    "thickness": 0.01
+  },
+  "commands": {
+    "curriculum": false,
+    "heading_command": false,
+    "max_curriculum": 1.5,
+    "num_commands": 4,
+    "pure_forward_prob": 0.0,
+    "pure_lateral_prob": 1.0,
+    "pure_lateral_speed_range": [
+      0.25,
+      0.45
+    ],
+    "pure_yaw_prob": 0.0,
+    "ranges": {
+      "ang_vel_yaw": [
+        0.0,
+        0.0
+      ],
+      "heading": [
+        -3.14,
+        3.14
+      ],
+      "lin_vel_x": [
+        0.0,
+        0.0
+      ],
+      "lin_vel_y": [
+        -0.45,
+        0.45
+      ]
+    },
+    "resampling_time": 10.0,
+    "zero_command_prob": 0.0
+  },
+  "control": {
+    "action_scale": 0.25,
+    "control_type": "P",
+    "damping": {
+      "joint": 2.0
+    },
+    "decimation": 20,
+    "hip_reduction": 1.0,
+    "stiffness": {
+      "joint": 80.0
+    }
+  },
+  "domain_rand": {
+    "action_delay_steps": [
+      0,
+      4,
+      8,
+      16
+    ],
+    "com_displacement_range": [
+      -0.05,
+      0.05
+    ],
+    "delay": true,
+    "disturbance": true,
+    "disturbance_interval": 8,
+    "disturbance_range": [
+      -30.0,
+      30.0
+    ],
+    "friction_range": [
+      0.2,
+      1.25
+    ],
+    "initial_joint_pos_range": [
+      0.5,
+      1.5
+    ],
+    "kd_range": [
+      0.9,
+      1.1
+    ],
+    "kp_range": [
+      0.9,
+      1.1
+    ],
+    "link_mass_range": [
+      0.9,
+      1.1
+    ],
+    "max_push_vel_xy": 1.0,
+    "motor_strength_range": [
+      0.9,
+      1.1
+    ],
+    "payload_mass_range": [
+      -1,
+      2
+    ],
+    "push_interval_s": 16,
+    "push_robots": true,
+    "randomize_com_displacement": true,
+    "randomize_friction": true,
+    "randomize_initial_joint_pos": true,
+    "randomize_kd": true,
+    "randomize_kp": true,
+    "randomize_link_mass": false,
+    "randomize_motor_strength": true,
+    "randomize_payload_mass": true,
+    "randomize_restitution": false,
+    "restitution_range": [
+      0.0,
+      1.0
+    ]
+  },
+  "env": {
+    "env_spacing": 3.0,
+    "episode_length_s": 20,
+    "num_actions": 12,
+    "num_envs": 4096,
+    "num_observations": 270,
+    "num_one_step_observations": 45,
+    "num_one_step_privileged_obs": 238,
+    "num_privileged_obs": 238,
+    "send_timeouts": true
+  },
+  "init_member_classes": {},
+  "init_state": {
+    "ang_vel": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "default_joint_angles": {
+      "roll_leg_f_l_joint": 0.0,
+      "roll_leg_f_r_joint": 0.0,
+      "roll_leg_b_l_joint": 0.0,
+      "roll_leg_b_r_joint": 0.0,
+      "pitch01_leg_f_l_joint": 0.0,
+      "pitch01_leg_f_r_joint": 0.0,
+      "pitch01_leg_b_l_joint": 0.0,
+      "pitch01_leg_b_r_joint": 0.0,
+      "pitch02_leg_f_l_joint": 0.0,
+      "pitch02_leg_f_r_joint": 0.0,
+      "pitch02_leg_b_l_joint": 0.0,
+      "pitch02_leg_b_r_joint": 0.0
+    },
+    "lin_vel": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pos": [
+      0.0,
+      0.0,
+      0.36
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "noise": {
+    "add_noise": true,
+    "noise_level": 1.0,
+    "noise_scales": {
+      "ang_vel": 0.2,
+      "dof_pos": 0.01,
+      "dof_vel": 1.5,
+      "gravity": 0.05,
+      "height_measurements": 0.1,
+      "lin_vel": 0.1
+    }
+  },
+  "normalization": {
+    "clip_actions": 100.0,
+    "clip_observations": 100.0,
+    "obs_scales": {
+      "ang_vel": 0.25,
+      "dof_pos": 1.0,
+      "dof_vel": 0.05,
+      "height_measurements": 5.0,
+      "lin_vel": 2.0
+    }
+  },
+  "rewards": {
+    "base_height_target": 0.3,
+    "clearance_height_target": -0.19,
+    "feet_air_time_target": 0.3,
+    "front_pose_deadband_deg": 10.0,
+    "front_pose_scale_deg": 10.0,
+    "front_pose_window_s": 1.0,
+    "lateral_tracking_sigma": 0.04,
+    "max_contact_force": 100.0,
+    "only_positive_rewards": false,
+    "scales": {
+      "action_rate": -0.01,
+      "ang_vel_xy": -0.05,
+      "base_height": -100.0,
+      "collision": -1.0,
+      "dof_acc": -2.5e-07,
+      "dof_pos_limits": -2.0,
+      "dof_vel": -0.0,
+      "dof_vel_limits": 0.0,
+      "feet_air_time": 0.3,
+      "feet_stumble": -0.0,
+      "foot_clearance": -0.01,
+      "joint_power": -2e-05,
+      "lateral_air_timeout": -0.5,
+      "lateral_error": -0.5,
+      "lateral_front_pose": -0.03,
+      "lateral_load_floor": -1.0,
+      "lateral_soft_slip": -0.05,
+      "lin_vel_z": -2.0,
+      "orientation": -1.0,
+      "smoothness": -0.01,
+      "stand_still": -0.5,
+      "termination": -50.0,
+      "torque_limits": -0.01,
+      "torques": -0.0,
+      "tracking_ang_vel": 0.5,
+      "tracking_lateral": 3.0,
+      "tracking_lin_vel": 1.0
+    },
+    "side_air_cost_cap": 4.0,
+    "side_air_timeout_s": 0.3,
+    "side_contact_duration_s": 0.04,
+    "side_contact_force_n": 5.0,
+    "side_load_window_s": 1.0,
+    "side_min_load_share": 0.1,
+    "side_min_total_force_n": 10.0,
+    "side_swing_clearance_m": 0.01,
+    "side_swing_full_reward_s": 0.15,
+    "side_swing_min_s": 0.06,
+    "soft_dof_pos_limit": 0.95,
+    "soft_dof_vel_limit": 0.9,
+    "soft_slip_full_force_n": 5.0,
+    "soft_slip_speed_scale": 0.1,
+    "soft_slip_speed_tolerance": 0.03,
+    "soft_torque_limit": 0.9,
+    "tracking_sigma": 0.25
+  },
+  "seed": 1,
+  "sim": {
+    "dt": 0.001,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "physx": {
+      "bounce_threshold_velocity": 0.5,
+      "contact_collection": 2,
+      "contact_offset": 0.01,
+      "default_buffer_size_multiplier": 5,
+      "max_depenetration_velocity": 1.0,
+      "max_gpu_contact_pairs": 8388608,
+      "num_position_iterations": 4,
+      "num_threads": 10,
+      "num_velocity_iterations": 0,
+      "rest_offset": 0.0,
+      "solver_type": 1
+    },
+    "substeps": 1,
+    "up_axis": 1
+  },
+  "terrain": {
+    "border_size": 25,
+    "curriculum": false,
+    "dynamic_friction": 1.0,
+    "horizontal_scale": 0.1,
+    "max_init_terrain_level": 5,
+    "measure_heights": true,
+    "measured_points_x": [
+      -0.8,
+      -0.7,
+      -0.6,
+      -0.5,
+      -0.4,
+      -0.3,
+      -0.2,
+      -0.1,
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8
+    ],
+    "measured_points_y": [
+      -0.5,
+      -0.4,
+      -0.3,
+      -0.2,
+      -0.1,
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "mesh_type": "plane",
+    "num_cols": 20,
+    "num_rows": 10,
+    "restitution": 0.0,
+    "selected": false,
+    "slope_treshold": 0.75,
+    "static_friction": 1.0,
+    "terrain_kwargs": null,
+    "terrain_length": 8.0,
+    "terrain_proportions": [
+      0.1,
+      0.2,
+      0.3,
+      0.3,
+      0.1
+    ],
+    "terrain_width": 8.0,
+    "vertical_scale": 0.005
+  },
+  "viewer": {
+    "lookat": [
+      11.0,
+      5,
+      3.0
+    ],
+    "pos": [
+      10,
+      0,
+      6
+    ],
+    "ref_env": 0
+  }
+}

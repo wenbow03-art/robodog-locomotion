@@ -1,0 +1,39 @@
+{
+  "models": [
+    {
+      "name": "standing",
+      "path": "models/standing/gait_150.pt",
+      "sha256": "655a5022f2e1404c8f7c3dfbb670cc8235710f78e7550e72f2343e4e2c5e9747",
+      "bytes": 7065753,
+      "role": "standing baseline",
+      "source": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/baselines/stand_walk800_20261027/gait_150.pt",
+      "original_run": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/flat_lz_q1l_v2_gait/gait_from_posture500_200_20261025_113614_3235946",
+      "task": "lz_q1l_flat_v2_gait",
+      "restore_path": "HIMLoco/legged_gym/logs2/baselines/stand_walk800_20261027/gait_150.pt"
+    },
+    {
+      "name": "forward",
+      "path": "models/forward/model_800.pt",
+      "sha256": "23d99708723bacb0a5cc5c473a66e76f076a3444a738a1a27c1a9f9d6b937086",
+      "bytes": 4705183,
+      "role": "forward baseline",
+      "source": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/baselines/stand_walk800_20261027/model_800.pt",
+      "original_run": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/flat_lz_q1l_v3_right_rear_split/rh_split_from600_to800_20261027_172314_1964027",
+      "task": "lz_q1l_flat_v3_right_rear_split",
+      "restore_path": "HIMLoco/legged_gym/logs2/baselines/stand_walk800_20261027/model_800.pt"
+    },
+    {
+      "name": "lateral",
+      "path": "models/lateral/model_300.pt",
+      "sha256": "83220db5c029cfc4cf7563ff76b037f9301d6dadc186b86d0d81f269be5b97d6",
+      "bytes": 6094693,
+      "role": "experimental native side policy; left gait still needs improvement",
+      "source": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/flat_lz_q1l_soft_slip/soft_slip_300_20261029_181955_3497700/model_300.pt",
+      "original_run": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/flat_lz_q1l_soft_slip/soft_slip_300_20261029_181955_3497700",
+      "task": "lz_q1l_flat_soft_slip",
+      "restore_path": "HIMLoco/legged_gym/logs2/flat_lz_q1l_soft_slip/soft_slip_300_20261029_181955_3497700/model_300.pt"
+    }
+  ],
+  "scope": "Exactly three user-selected checkpoints; old runs not included. Checkpoints copied byte-for-byte, optimizer states preserved if present in source.",
+  "source_project": "/home/xiaohengli/Program/robo_competition"
+}

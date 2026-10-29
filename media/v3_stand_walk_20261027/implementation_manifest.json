@@ -1,0 +1,13 @@
+{
+  "training_updates": 0,
+  "task": "lz_q1l_flat_stand_walk",
+  "source_sha256": {
+    "HIMLoco/legged_gym/legged_gym/utils/lz_q1l_stand_walk.py": "a1d7c0358dc8e59ae3b4434a1074dea8ecb043ac38c169d9567e033d6e9610be",
+    "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2.py": "90cbcb59747faf9d264cd5cba90c1d54be0d68d412d9eb25ed94d1aaa2a3936d",
+    "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2_config.py": "95c0d16ab4ce7df824a7a2ff0b071e3e937efa926bb290d8b8563eb19df0a2c6",
+    "HIMLoco/legged_gym/legged_gym/envs/__init__.py": "e30acb4b1b91d445659253972a6713ea0ec749ea96e22a069d17150daf3bc6cb",
+    "media/v3_stand_walk_20261027/evaluate.py": "dba828239429adf29d445bff22184dc3bebf71419f8a72b6bb0d4c038488a5c9",
+    "media/v3_stand_walk_20261027/check_policy.py": "942a9ebbd37575719e72218a9b1638091f6fc400e974b46898651995d92ac2a2"
+  },
+  "blend_time_s": 0.3
+}

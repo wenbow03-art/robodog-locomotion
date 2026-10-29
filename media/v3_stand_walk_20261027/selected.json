@@ -1,0 +1,6 @@
+{
+  "run_dir": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/flat_lz_q1l_v3_right_rear_split/rh_split_from600_to800_20261027_172314_1964027",
+  "checkpoint_sha256": "23d99708723bacb0a5cc5c473a66e76f076a3444a738a1a27c1a9f9d6b937086",
+  "iteration": 800,
+  "variant": "right_rear_split"
+}

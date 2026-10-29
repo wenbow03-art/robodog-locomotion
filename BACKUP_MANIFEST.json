@@ -1,0 +1,2635 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 97,
+      "sha256": "482f63191980ff165efd022eac80144c8f568ff8a32a2ab09ace6dffe6be20ac"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 71942,
+      "sha256": "b1eee835e4cc2006ec8088404a25a1441f0ab4c64d40afb12c0d33e7c79dffbe"
+    },
+    {
+      "path": "HIMLoco/.gitignore",
+      "bytes": 743,
+      "sha256": "067673c422f9739fadf2261f71b8c9f969d74fc314aef4b86d187bdf1be47b91"
+    },
+    {
+      "path": "HIMLoco/LICENSE",
+      "bytes": 20894,
+      "sha256": "5d81a851d501848e1f52bf1f7be4111b4a883a2b17cf9f2562bda296f486f71c"
+    },
+    {
+      "path": "HIMLoco/README.md",
+      "bytes": 3439,
+      "sha256": "f5a1fc9bfb205e69d550b84945205367b01d9353c072435b9a4229045622a350"
+    },
+    {
+      "path": "HIMLoco/assets/HIMLocomotion.pdf",
+      "bytes": 8357108,
+      "sha256": "9bff995942a9e9df280cf7a3ae5f6cc827516ee71a7e4b24c8b66b1819463558"
+    },
+    {
+      "path": "HIMLoco/assets/demo.jpeg",
+      "bytes": 2901200,
+      "sha256": "c3526f3c46d8516cf243ecbcab9c04f916e5a5dd02667f64c5a021a5c5d7a109"
+    },
+    {
+      "path": "HIMLoco/assets/hinf_demo.jpeg",
+      "bytes": 234585,
+      "sha256": "3e55bc303e398efd8087306a3ea5e4915904616e33d7a4ba64e13e5f40a6300c"
+    },
+    {
+      "path": "HIMLoco/assets/hinf_framework.jpeg",
+      "bytes": 66623,
+      "sha256": "6e55a69dcbaa614942d6de627ab87443073318eb3a308aceda1cee019e57e2da"
+    },
+    {
+      "path": "HIMLoco/assets/hinf_method.jpeg",
+      "bytes": 58921,
+      "sha256": "e93b7ec2c2170b4fa2ce43b67675f384b8429c2c0dfef5fe15fa679a47c76f28"
+    },
+    {
+      "path": "HIMLoco/assets/icon.png",
+      "bytes": 116783,
+      "sha256": "d3b137e7fbe677345b43ed9a10f93c6a320efe6b8059922c0d2182222774e034"
+    },
+    {
+      "path": "HIMLoco/assets/imc.jpeg",
+      "bytes": 561283,
+      "sha256": "245900b7f926ae4ff544055f5dabe721ff34346f7796daec742963b064c530b3"
+    },
+    {
+      "path": "HIMLoco/assets/imc.pdf",
+      "bytes": 87208,
+      "sha256": "68edb7feb4e6cfac66731792a5ee656b99677b99ff5a299d4da0f90bf3bd4984"
+    },
+    {
+      "path": "HIMLoco/assets/overview.jpeg",
+      "bytes": 1320489,
+      "sha256": "45026e23b59c17cc8b6051e6e7b0e07c978d535f331dc2f1a40f019ca53284ee"
+    },
+    {
+      "path": "HIMLoco/assets/overview.pdf",
+      "bytes": 1887377,
+      "sha256": "b1379bf1c2cd1ffbf2a3b932d273be71eff56d50b07645c617e452ee7ec864c5"
+    },
+    {
+      "path": "HIMLoco/assets/teaser.jpeg",
+      "bytes": 1262329,
+      "sha256": "6559faeeb35579f33a4a5f31107bc1029ef1d2f13c93a64d757426caa60ad478"
+    },
+    {
+      "path": "HIMLoco/assets/teaser_modify_arxiv.pdf",
+      "bytes": 801092,
+      "sha256": "f4c22e3c1b41c2972bec92a8cc98cb4feebcda2d6cef4a0dbbbeada1aae67bd3"
+    },
+    {
+      "path": "HIMLoco/legged_gym/LICENSE",
+      "bytes": 1730,
+      "sha256": "d5b70bfeae0eb84295cff9dd7daf71e28a809eae4a1953762d491cb256dafeb6"
+    },
+    {
+      "path": "HIMLoco/legged_gym/README.md",
+      "bytes": 6456,
+      "sha256": "295af29844b80240ed5bb8caf3302c5714e7d6b557c70e42096fd53944bfc17f"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/__init__.py",
+      "bytes": 1834,
+      "sha256": "6997e11ba2ea0a3ce791c33c0e093fd703f7d51444a966e79235ce3221908118"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/envs/__init__.py",
+      "bytes": 10606,
+      "sha256": "868e2c0b9950188bd718be11229a8d89059f25443675235caf3abfef2524aedb"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/envs/a1/a1_config.py",
+      "bytes": 5598,
+      "sha256": "d8bd2f1bf10e64e0a4c2778f6d082b2be19a65164ecd329f95911ced2b2ecf78"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/envs/aliengo/aliengo_config.py",
+      "bytes": 5612,
+      "sha256": "25b7bd016cfd2d66c1e258c57191946fbf2aa47ca7170982b58a63668a609f36"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/envs/base/base_config.py",
+      "bytes": 2626,
+      "sha256": "c2789af5409c82337862d78d99f82ef262d393af5dc810df6afe221d37ed2677"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/envs/base/base_task.py",
+      "bytes": 6137,
+      "sha256": "3cd511601a38d37f97c31e5490884bbf22ed4cfed83027c70f2add257c2fec5f"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/envs/base/legged_robot.py",
+      "bytes": 67743,
+      "sha256": "4be9c8a9dac2e41a755465410837bb0f7c01bd5a911d175b1b726c73f477546d"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/envs/base/legged_robot_config.py",
+      "bytes": 11067,
+      "sha256": "a0230fa99691a3dd28f077bf30a2432efb998def950b2be98f623fd1b303d55b"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/envs/go1/go1_config.py",
+      "bytes": 5602,
+      "sha256": "08af584e7b42a3652c1752cca9bd6fde53cc96650ece74cc9b86faaf29825a59"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l.py",
+      "bytes": 4694,
+      "sha256": "ee697c70634f5dffb0b1e3020064ced5f3a1d9c02d7d53b48d58e3a64210901f"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2.py",
+      "bytes": 57578,
+      "sha256": "e51f99575e023f309b495f52d6269f211fd2c091fbcedb500620a0b75a3bd1f1"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2_config.py",
+      "bytes": 22354,
+      "sha256": "a5a9357bf63d6ac16ae5a57a2f9e106ea2866d704f65236760bd345dbbd5edfc"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_config.py",
+      "bytes": 8230,
+      "sha256": "6c76372268c79b00c2791f8a895d8013f060563c3a55cfdd2bdadb9badf54db7"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/scripts/play.py",
+      "bytes": 6962,
+      "sha256": "c03274a1d22f68815d479672fa2a49a62d36f6620172f903570469cbc219af9e"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/scripts/train.py",
+      "bytes": 2271,
+      "sha256": "121a58d22dd06e440922db3977e63ef83f9b530bdff4cda5a20f82b5e2f2ea22"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/tests/test_env.py",
+      "bytes": 2434,
+      "sha256": "7148330dec541c8116242bccbfd3b5dc4d3e49cb8f15d779fb09fe846932d1d7"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/utils/__init__.py",
+      "bytes": 1895,
+      "sha256": "1be8b2f5c8e6ad54578b3647be9bb85a52bbd8ebc1eda596e19330ac4414d1bf"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/utils/helpers.py",
+      "bytes": 10081,
+      "sha256": "45786bd8917851678bcb5157b951f0995b790c6b6beba11452a7f970545fcc43"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/utils/log_paths.py",
+      "bytes": 325,
+      "sha256": "880365cd60b8a3a931844dd078508bd787e6c4d6c6acb0ed07c8a526b3bd0bdb"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/utils/logger.py",
+      "bytes": 6031,
+      "sha256": "7a64b8d2e5b17f12b013b963e766cfabfb856c4bc5d5a0ef7a086be74636258e"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/utils/lz_q1l_cadence.py",
+      "bytes": 2894,
+      "sha256": "2aec687723a3456195aaeab9f474686167c0e9764fa355bc8151e8533083e2a2"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/utils/lz_q1l_front_pose.py",
+      "bytes": 1533,
+      "sha256": "ea6fe4a85d931934b89f5c7c97cf3b039da291b37b576bec78f85c2e6623f5f9"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/utils/lz_q1l_lateral.py",
+      "bytes": 763,
+      "sha256": "a85df4f352e84689d92a0f7bbb7c2ac6b9c7428e56b6dcf7836d871a13fba28f"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/utils/lz_q1l_legacy_lateral.py",
+      "bytes": 1937,
+      "sha256": "cc6aed771c818f9d245cdba530a4e4aef6869dc30f86ff426a97e75265f2ffe8"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/utils/lz_q1l_mirror.py",
+      "bytes": 4834,
+      "sha256": "edd8b4e397902c4175b961595f1a936e2cf82abb708fac116f438cd6b4f5b216"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/utils/lz_q1l_side_coordination.py",
+      "bytes": 4406,
+      "sha256": "39fbf3fcb51160ef57a8929615bdd4324e7aabb182550074105043be40c68ec9"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/utils/lz_q1l_stand_walk.py",
+      "bytes": 2346,
+      "sha256": "a1d7c0358dc8e59ae3b4434a1074dea8ecb043ac38c169d9567e033d6e9610be"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/utils/math.py",
+      "bytes": 2421,
+      "sha256": "bffd4e3e0334f615f2d1e30a5b4f86281297333dad009975302a0d5709bb8249"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/utils/task_registry.py",
+      "bytes": 8833,
+      "sha256": "2ed3923f2815b9145870c4954dbb402726c0aabe76b1eb78b82467b3e85fde2e"
+    },
+    {
+      "path": "HIMLoco/legged_gym/legged_gym/utils/terrain.py",
+      "bytes": 9367,
+      "sha256": "b9e28e46f7ac8e0c4ca587b14be9fd97025db8c127812e887802fea3d554eb3b"
+    },
+    {
+      "path": "HIMLoco/legged_gym/licenses/assets/ANYmal_b_license.txt",
+      "bytes": 1455,
+      "sha256": "3e3b375fe5502ed3f8f181630267fc632b2d1451c2c72896427230f4bc0a306c"
+    },
+    {
+      "path": "HIMLoco/legged_gym/licenses/assets/ANYmal_c_license.txt",
+      "bytes": 1477,
+      "sha256": "de5f42e8397f2e1c2339f41b00d2e4e64d09ad8c5b9251be9388445ae7f6b41d"
+    },
+    {
+      "path": "HIMLoco/legged_gym/licenses/assets/a1_license.txt",
+      "bytes": 16725,
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+    },
+    {
+      "path": "HIMLoco/legged_gym/licenses/assets/cassie_license.txt",
+      "bytes": 1087,
+      "sha256": "6aa4db0ab823ca3383ca5bedc2b77d9a94638fce9d3ddda1012267b6496ba84e"
+    },
+    {
+      "path": "HIMLoco/legged_gym/licenses/dependencies/matplotlib_license.txt",
+      "bytes": 2361,
+      "sha256": "5558c493c04235e497a2f22ff074c9575ff050e2e86214a453cd9caf36c91d9b"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/a1/a1_license.txt",
+      "bytes": 16725,
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/a1/meshes/calf.dae",
+      "bytes": 1759398,
+      "sha256": "744798832678e7315ec90a3d419070f72f4049182ce1d36c627a7c53e0347729"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/a1/meshes/hip.dae",
+      "bytes": 668998,
+      "sha256": "601ad36dcb3a459338d91d4eb0aa15995a169ebd7f268f91b3d941f68ffd8a8d"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/a1/meshes/thigh.dae",
+      "bytes": 1151660,
+      "sha256": "63a7c33a0c04549e7d001e8432f27e639b09393233ad1131c6035148aa0ac1a4"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/a1/meshes/thigh_mirror.dae",
+      "bytes": 1187646,
+      "sha256": "73fc605150683746d709522ca7d84cee3c5504de77baae51f95ee757184bc8c2"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/a1/meshes/trunk.dae",
+      "bytes": 4246287,
+      "sha256": "be2f4256cd8d2944881e4fcca6f0aaac0632cdb09ae73fa9040f75cb5e15a15c"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/a1/meshes/trunk_A1.png",
+      "bytes": 71835,
+      "sha256": "512e8cfa5ebedfc4199afe172590d3d486461e42244ab5d439020111f9fc7e78"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/a1/urdf/a1.urdf",
+      "bytes": 18262,
+      "sha256": "9ab724867bd6c55c6aec0171d1072d0ab4723b8801789dc7ec14c2e50723a883"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/a1/urdf/a1.urdf.origin",
+      "bytes": 18310,
+      "sha256": "142ef8a6dbeb591cc9819e88a46f9091f0d3a6b95f21255cf3f5277e2e75b458"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/aliengo/meshes/calf.dae",
+      "bytes": 824168,
+      "sha256": "3a6dbeff3210f90f96b74f39e242f4906bc62c8d31be03360ab6cae8b18933ac"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/aliengo/meshes/hip.dae",
+      "bytes": 379988,
+      "sha256": "08aa4f446b2f764a4e78b457d44d2835a21369454bdf11153bad7daf77e4af27"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/aliengo/meshes/thigh.dae",
+      "bytes": 741600,
+      "sha256": "c0751b204f8c56a75ccadf592e57287ded90955055f03d993efdb90a4b099da9"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/aliengo/meshes/thigh_mirror.dae",
+      "bytes": 740540,
+      "sha256": "c045367de5833053e551f38ffc172fb04ed3af5f9258757a478bced98d433e48"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/aliengo/meshes/trunk.dae",
+      "bytes": 3434434,
+      "sha256": "2e2e8ffe03e5b5dbbc74eb324cff218e18806cc87f08e5a06f4a9427b06903d1"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/aliengo/meshes/trunk_uv_base_final.png",
+      "bytes": 132768,
+      "sha256": "7c1d1c5dd2f744af2787a6a6ca93305657fb4c6e5780c0c12494ea9038f9bbd2"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/aliengo/urdf/aliengo.urdf",
+      "bytes": 39952,
+      "sha256": "c1b4bb88b1fcfc3d7d0cc2123bacbafd18f1e523e6763c278754424ff9a19774"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_b/ANYmal_b_license.txt",
+      "bytes": 1455,
+      "sha256": "3e3b375fe5502ed3f8f181630267fc632b2d1451c2c72896427230f4bc0a306c"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_b/meshes/anymal_base.dae",
+      "bytes": 9237799,
+      "sha256": "835dacc121ef1e93537ae7b5ee8d1840c691bc181069ad0a2cc0660744091694"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_b/meshes/anymal_foot.dae",
+      "bytes": 471588,
+      "sha256": "76a57619a7dbf2f845a0915b390f634b406d7006896cb4040424ab5f3fcfcac3"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_b/meshes/anymal_hip_l.dae",
+      "bytes": 2482545,
+      "sha256": "8025952a5d268f83a2cac6acff7976993aca9874fe32aa6308340d0680e0a40d"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_b/meshes/anymal_hip_r.dae",
+      "bytes": 2484940,
+      "sha256": "1e27daa4f21a1822288e6733ea74d5b948bc0f92eaa37efa6d101afc674074d9"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_b/meshes/anymal_shank_l.dae",
+      "bytes": 579075,
+      "sha256": "8c488540095c1d6c38cbbe6d421c02a061edb6bab928029e5dc6226c52d6d701"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_b/meshes/anymal_shank_r.dae",
+      "bytes": 577850,
+      "sha256": "5319c504960ea18366c25f015be74aa9c845555c8bcf60bc3c4de320b0633af6"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_b/meshes/anymal_thigh_l.dae",
+      "bytes": 2689247,
+      "sha256": "55a21b25565610a535b7dc595c4fc20c2311ed5cef09627b1c915a55b8cc9e07"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_b/meshes/anymal_thigh_r.dae",
+      "bytes": 2711093,
+      "sha256": "4da21d6d6ef389a78d0d6df89592736ac352a0bf090098725a844b4edbae31a6"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_b/meshes/base_uv_texture.jpg",
+      "bytes": 663631,
+      "sha256": "e5b8f85820248737a413b55470811637b270c739faa49337797b06365dffcc6f"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_b/meshes/carbon_uv_texture.jpg",
+      "bytes": 168593,
+      "sha256": "0a3e000f27738f13735c91af5f71dd731c88e150f823c42b1f98398c2b358229"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_b/urdf/anymal_b.urdf",
+      "bytes": 24382,
+      "sha256": "fcb25fe6848039ba4f41ca8541bbc0c31ddbfcd3eede71e5917dbcc5fcc4992c"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/ANYmal_c_license.txt",
+      "bytes": 1477,
+      "sha256": "de5f42e8397f2e1c2339f41b00d2e4e64d09ad8c5b9251be9388445ae7f6b41d"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/base.dae",
+      "bytes": 278817,
+      "sha256": "785bea9b33831f8c741fc0ca070162e73cbf560ea9b03c53abf8978be877fc48"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/base.jpg",
+      "bytes": 198456,
+      "sha256": "b2fd8e67a836ff57e17bb6c9cea8962641d40b2a6c6d534c15ebd36d07456d4b"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/battery.dae",
+      "bytes": 5333,
+      "sha256": "690077db5140751f38deb1a450ab7c1e92977fc517cd39347758b30da6ca0a84"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/battery.jpg",
+      "bytes": 113546,
+      "sha256": "dc2968cc934d7259539aa7cacf04d8dba05cce45335c7a17940a56fada1d33be"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/bottom_shell.dae",
+      "bytes": 1452045,
+      "sha256": "3a5cfba0c6f632bc3ea816d18a069aefad06698de3f9dea47cc54b6d445a75ac"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/bottom_shell.jpg",
+      "bytes": 169218,
+      "sha256": "03890114260bb60c4e074f64d863939ce8dcb6660c867f5847b45fdbef97c000"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/depth_camera.dae",
+      "bytes": 5425,
+      "sha256": "44876e510ee0c549a85be20ba68ad25dea57322a62983996527a659dbdbaba3c"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/depth_camera.jpg",
+      "bytes": 190120,
+      "sha256": "2d9567d3599fc3fcc2f83a2edbef1831835e816e67d6a91cedfe080e56341453"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/drive.dae",
+      "bytes": 27885,
+      "sha256": "7f8f2e34bed73d0b6ba5b3b0c60850ee2ee6a5e5aa29b8ce30839c1a9ab2b142"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/drive.jpg",
+      "bytes": 178021,
+      "sha256": "2ba492037a1aa86c965725aa184db19f6a4be2791ee204ca099c57ec25dde4d4"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/face.dae",
+      "bytes": 831503,
+      "sha256": "6230397a1618fadc72c7bd5320f5b934048a94259831a53a978ebd03859a046c"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/face.jpg",
+      "bytes": 301962,
+      "sha256": "2ba488643ad18a7332e773f4c68cfd2c9dcbb7ad5da10c49293ff469c4fea3e7"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/foot.dae",
+      "bytes": 118105,
+      "sha256": "145ac1bea2b3c92286cf396251970463f1d67b260b889b1ceaa5be30de0671d2"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/foot.jpg",
+      "bytes": 189653,
+      "sha256": "2ca199d5111e9d72214a026efcf2f4843eff121051f1b8bd660c837032143c3d"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/handle.dae",
+      "bytes": 22670,
+      "sha256": "0ae653321953c54b2d482b7f95e36b7fcf3d92fbadd7c40e02c1656d6e80916e"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/handle.jpg",
+      "bytes": 170512,
+      "sha256": "77f09127642cf642678d13bf73d3fef8fcacb08c3621eff94d8843801da461cb"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/hatch.dae",
+      "bytes": 9657,
+      "sha256": "00ecbf99896b05b191daa622e85a5cfaec98141d199705f61fbe6d61d6675245"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/hatch.jpg",
+      "bytes": 105331,
+      "sha256": "2c94f1942f88dde4041a0dcf7eb7d66c289b0017d37a23df3e3c80631ae7dc5e"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/hip.jpg",
+      "bytes": 232010,
+      "sha256": "fb7a307df788b2396d769ea2d24d066a83c689932679b78a48c4363b8b525e86"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/hip_l.dae",
+      "bytes": 36985,
+      "sha256": "88ac066c129be6807ccb700a28d5fcf1f9ec4a70c2967ff27dca480972be03d6"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/hip_r.dae",
+      "bytes": 37111,
+      "sha256": "e862980f2fe4e2de20f4085aede4449c3e58022a18e658828358e5ce821c8e07"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/lidar.dae",
+      "bytes": 36393,
+      "sha256": "633db35d619694d2dfa9f263cf76e1db3a8556c801baeb9298ead365d96947ae"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/lidar.jpg",
+      "bytes": 184577,
+      "sha256": "1a5ae29ab0bfbe1392a03a2713d6b35c0818fc14b51a3ec7ee52948e477348ab"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/lidar_cage.dae",
+      "bytes": 66614,
+      "sha256": "1d0f16f34f36ae844f4935256c0cbe382f532d3b370d4ca2db123b0f0ffb1ce1"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/lidar_cage.jpg",
+      "bytes": 282722,
+      "sha256": "59b58b6dfe7919e93a8a49307c7a731a2722e16a9e4f112801deab6385c07ace"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/remote.dae",
+      "bytes": 43323,
+      "sha256": "0a372ada65117f5f595b97df15fcb6a20d5ac05d101b5ac99335b5ffa228b03a"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/remote.jpg",
+      "bytes": 109971,
+      "sha256": "ac3fff39a244809b7cd2e61bc264a2500ae0730fd1ab0db2ed7931452cfaf284"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/shank.jpg",
+      "bytes": 168946,
+      "sha256": "1b5f30dcbfef846f23da1b2348cd6d2dd92a9bccc3a3e6a7d7c50e7802d8d7cf"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/shank_l.dae",
+      "bytes": 237042,
+      "sha256": "1c8787d9e055f1330fb7c7cb02a3b780cf4f16b9319c081ebe9cd8d86f5de875"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/shank_r.dae",
+      "bytes": 239262,
+      "sha256": "386f85f0c8572794dac06fdfa439a2f90d803d28263d10002e6417b0f947ffc4"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/thigh.dae",
+      "bytes": 265853,
+      "sha256": "f2046f66c75689322eef919828b07f02c1ace1838677f78e14e28f2b2343c446"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/thigh.jpg",
+      "bytes": 236107,
+      "sha256": "1fc8e0c0bda1028c6392ad72bb820f1e9744a8068497c4ada51286fc5823efb3"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/top_shell.dae",
+      "bytes": 1331969,
+      "sha256": "d53bc2412da380d7b3ddf11da617880b435e99388a0d19c8db07fdf0b2c756d7"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/top_shell.jpg",
+      "bytes": 218160,
+      "sha256": "3fa585c862a8f9eb3f18b3fcc23ad169869d333939fff57f0f1b12cb1c36bc6c"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/wide_angle_camera.dae",
+      "bytes": 20722,
+      "sha256": "de0ecd4ff062973990ae232e16f6965a92fb874614b02e982f111bdde8accfb0"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/meshes/wide_angle_camera.jpg",
+      "bytes": 155846,
+      "sha256": "f94a9e342de634ad96c82fd36f02c3f8365ea3fdbeb47d9333b88138cd16f2c1"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/anymal_c/urdf/anymal_c.urdf",
+      "bytes": 54450,
+      "sha256": "f94f7fee1dedfda4face86c864a1db255c0c198f5ce685ce3ba0395c50306186"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/cassie_license.txt",
+      "bytes": 1087,
+      "sha256": "6aa4db0ab823ca3383ca5bedc2b77d9a94638fce9d3ddda1012267b6496ba84e"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/abduction.stl",
+      "bytes": 130484,
+      "sha256": "9d1ae3b92bbe603dfbb21ebd5798ca62341cddb7eda5e105d1fb46413cfdf89d"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/abduction_mirror.stl",
+      "bytes": 130884,
+      "sha256": "c37cb97dee32825af42f11e94234582a173f2122f6d4218d633a096c8fbce54b"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/achilles-rod.stl",
+      "bytes": 15384,
+      "sha256": "bc05a9150f958ef7ee1d08f524fbbeb5a0ee35c335121ba0b7c33780bade18c6"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/hip.stl",
+      "bytes": 59434,
+      "sha256": "6b0f1034d5cf80644aca0c973b41f2acfcc43a16e17e1c9bdc81d6e4bf29b4ce"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/hip_mirror.stl",
+      "bytes": 59434,
+      "sha256": "544e3c3096deb673b6280492ccfcf6b0d61196a9cffa9d734f1abc60a8b0620e"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/knee-output.stl",
+      "bytes": 68234,
+      "sha256": "900462151d64fef892e60a2dc884aa9a07ae06e4f5eef06a02b955f6a6cdcc51"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/knee-output_mirror.stl",
+      "bytes": 68184,
+      "sha256": "bc2a8dbf7a0fd0c1fa5169cb7931da236ef0c4aae4e775f741d1286b698b196f"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/pelvis.stl",
+      "bytes": 181684,
+      "sha256": "ad22bc7822ac987b2169c220dae20b43783351e780df16a4026606c798b86557"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/plantar-rod.stl",
+      "bytes": 12884,
+      "sha256": "b81ac41e167cd568d24958b6558c132b63d5b33c86d3bce3aaca8a6662cd5039"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/shin-bone.stl",
+      "bytes": 128884,
+      "sha256": "f19a1df02891cca70abf5f7e73a8d44156c3b216d9e2945069f02476139d9781"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/shin-bone_mirror.stl",
+      "bytes": 129284,
+      "sha256": "d5735948172265a9fc47de41a08d6f8b49896b86b03a8d2b0a41af6419a7e402"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/tarsus.stl",
+      "bytes": 115684,
+      "sha256": "1ecd101a598dec160112499b32150382c2ed5a17fd7e80b418e93ac1a5a04eee"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/tarsus_mirror.stl",
+      "bytes": 115234,
+      "sha256": "bcdc65d1b003f05354521f561470ba5de5e28eff381f7f30db7f669008a429ff"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/thigh.stl",
+      "bytes": 246934,
+      "sha256": "263066ca8dea5dd8755dab6ebc8d5048177561bc0678a0880a2811ff52dd31c1"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/thigh_mirror.stl",
+      "bytes": 246934,
+      "sha256": "40c73e34768de31426bb9ec7e676739fb4dd2c8a257cf5e517cc32ff9efeccc1"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/toe-output-crank.stl",
+      "bytes": 28734,
+      "sha256": "56c73773c45a95e56fef7d5aa3e990d8c5d30752ea4864ee59ed9c30ec7b5b89"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/toe.stl",
+      "bytes": 40634,
+      "sha256": "7378042d6932e31248871b96b61c4f6ac6544dcc27239cc8d9189c2ffaefbd23"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/toe_mirror.stl",
+      "bytes": 40634,
+      "sha256": "3d9c7c81eca860abd23ec90d6f5c8ba7185c88b85122009893a72886c731ad28"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/torso.stl",
+      "bytes": 1371484,
+      "sha256": "e57a36e577e6c4efd29cadcacb921107ba9c286ec20e3d8cb3877f852215706d"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/yaw.stl",
+      "bytes": 137684,
+      "sha256": "fca746aacf8a02111093462476002b1daa2416da5428727496c1bf94ac1d7491"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/meshes/yaw_mirror.stl",
+      "bytes": 137834,
+      "sha256": "8f2320c5b17d78b124302e16160637b0f1904c9dc0284a17e9565bddde3eb736"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/cassie/urdf/cassie.urdf",
+      "bytes": 16923,
+      "sha256": "d195a87fac5f2ccd92df16177b65612d37e55e163f40ea377c30a34307f6a885"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/go1/meshes/calf.stl",
+      "bytes": 1447984,
+      "sha256": "ad3685e132454fd64e4ca3e5089f0d812fb53958e95c14913a22e3193e9e9ed8"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/go1/meshes/hip.stl",
+      "bytes": 1505284,
+      "sha256": "b6599b9dd2751ebd87449203223f5683a6c235268b76fcc443e00e0d974a06c0"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/go1/meshes/thigh.stl",
+      "bytes": 793584,
+      "sha256": "bbf7c0a441323088c59276dbec8a32e708a1c61f42d30a6f6775176366ea23f8"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/go1/meshes/thigh_mirror.stl",
+      "bytes": 950834,
+      "sha256": "1a90b89de47a57cb12a2d703f6b008a6ace8a1890a381c27723296fd0d00b9d8"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/go1/meshes/trunk.stl",
+      "bytes": 5619284,
+      "sha256": "051a57995dc6f892fc9bc53cd94e9a894f3dc209fd646e94d55d764150013970"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/go1/urdf/go1.urdf",
+      "bytes": 18608,
+      "sha256": "db8c0c56ebbc2031e3c4c250db0aef6fbcceff0f2c5f5c602accf73a06d74737"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/go1/xml/go1.xml",
+      "bytes": 14601,
+      "sha256": "ae2e33caca958e7e60a7bfce004e4d70a9200005a7faf56969ecf8e52b478687"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/base_link.stl",
+      "bytes": 720034,
+      "sha256": "45c382aaad2a5e097a47657cd2da992dff7b851524ee703cadb29dfdca6d7913"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/camera_chest_mounted_link.stl",
+      "bytes": 61834,
+      "sha256": "4a89dc1c642607d37b7cd43c25cb2520abcac3e44794b4aae80dcdd0d92c4126"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/camera_head_mounted_link.stl",
+      "bytes": 13884,
+      "sha256": "a4c3440859f9ea81a4c8db94f2256d61f36ebc33fd5d0a55c72b773fdad7f3c6"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/head_nod_link.stl",
+      "bytes": 439134,
+      "sha256": "49b49fb6fa57817f91532933d34583b76fef3c358977168b71e68cd3e6ec13e5"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/head_shake_link.stl",
+      "bytes": 201484,
+      "sha256": "8c555c638ef4222c70ff5fe0c6b578f3112129026daf5319c21780385a0f166c"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/pitch01_leg_b_l_link.stl",
+      "bytes": 2456984,
+      "sha256": "fe4b0c41372f0e5e93f0b0cde8a0c872fb30bb9d8ef2faa0f74093dfe7df91a1"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/pitch01_leg_b_r_link.stl",
+      "bytes": 148484,
+      "sha256": "884f206a6dca400a397af51730537b2cb62c8ca283259f456aae67ad8bd8925b"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/pitch01_leg_f_l_link.stl",
+      "bytes": 149584,
+      "sha256": "0d8e090d01b4487fcaf98defe9b1c6c05c802d49328237290f943c7c0cd1b8e5"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/pitch01_leg_f_r_link.stl",
+      "bytes": 148484,
+      "sha256": "884f206a6dca400a397af51730537b2cb62c8ca283259f456aae67ad8bd8925b"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/pitch02_leg_b_l_link.stl",
+      "bytes": 39084,
+      "sha256": "1d2a8f015f02dd999272f3ac0ecc32e48e3a603145aa87062b2fad4e91732da2"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/pitch02_leg_b_r_link.stl",
+      "bytes": 39084,
+      "sha256": "d4e52144bfcca6b7d03f888e2660f669691cb5dbf6ed2a0d1968e30f0e6b0235"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/pitch02_leg_f_l_link.stl",
+      "bytes": 39084,
+      "sha256": "cec5b226534556df1f8398beda67cb0032532ed94df86832ee502506bf39d5ba"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/pitch02_leg_f_r_link.stl",
+      "bytes": 39084,
+      "sha256": "714133cb4ab4d4bc9600e593bdb7532f624b0edaf32a73c51e05d5277a703861"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/pitch03_leg_b_l_link.stl",
+      "bytes": 128584,
+      "sha256": "811bbf14f16577f1bd94a3f7f25efbd32f000793b0d8636ee40d3985b99ca56c"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/pitch03_leg_b_r_link.stl",
+      "bytes": 128584,
+      "sha256": "55b42dd297f8d3193a476cb2e88600ab6b18ff71a47930a71ccdd8d5522407bb"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/pitch03_leg_f_l_link.stl",
+      "bytes": 128584,
+      "sha256": "4956b989f6cfdf2014bbb7fde291eca2fed32417688b214fb4f86874520506d9"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/pitch03_leg_f_r_link.stl",
+      "bytes": 128584,
+      "sha256": "5d68748a0841a58cc5c9e95d0a475540c39ee07f9cf8dfdc948b487998dc773b"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/roll_leg_b_l_link.stl",
+      "bytes": 49684,
+      "sha256": "d7988d327a7551571bce2d267fc3ff60101605fec0000cad6a4159abd87f785d"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/roll_leg_b_r_link.stl",
+      "bytes": 49684,
+      "sha256": "3c2ed7d4d0f25723c3c02b651f520ec19cc0bbc6e8546bab807a020efb38598d"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/roll_leg_f_l_link.stl",
+      "bytes": 49684,
+      "sha256": "ad299a8693452d40ac7d1dc745a99caca31571e6824746d9d212483a3ffe9b41"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/meshes/roll_leg_f_r_link.stl",
+      "bytes": 24834,
+      "sha256": "5da828bec7af20e33964d67cafee9287d4bee5b9de225601ce6d3a08300804e4"
+    },
+    {
+      "path": "HIMLoco/legged_gym/resources/robots/lz_q1l/urdf/lz_q1l.urdf",
+      "bytes": 22278,
+      "sha256": "3c4a5128e3ca05fd803de8859290354aad2b76137da11d0a8397dd97f7d59dda"
+    },
+    {
+      "path": "HIMLoco/legged_gym/setup.py",
+      "bytes": 417,
+      "sha256": "69309db446116854bdffc4bb3e6fe36f0ec5629d734ffdcfa072e25d517202f9"
+    },
+    {
+      "path": "HIMLoco/projects/h_infinity/README.md",
+      "bytes": 4633,
+      "sha256": "ed6985ffe96a788228a7104636636d9f73dd5995da1b6da475de760d1c7c7da3"
+    },
+    {
+      "path": "HIMLoco/projects/himloco/README.md",
+      "bytes": 4885,
+      "sha256": "69a050430f2d41f2b8da9e2e6445dd9f9a316e140eadbcbb558cbdd4b72fcdeb"
+    },
+    {
+      "path": "HIMLoco/requirements.txt",
+      "bytes": 199,
+      "sha256": "693a1c81838d2a0c4761f8506bec2355c18038a998ac9abde63e7c41fbd843df"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/.gitignore",
+      "bytes": 87,
+      "sha256": "17305411fc360ae558fb5afbba0a66fd3244c5345aa4a3a289cb3cda1ada6de4"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/LICENSE",
+      "bytes": 1645,
+      "sha256": "8b4a99b53e3eb96dafc69fe08b2c9b0242512fa9fa508e735217f1d06798d35f"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/README.md",
+      "bytes": 675,
+      "sha256": "20f847f9881c50e922cd7395f998df1de0ab04d4848f8526dd5ba76c274b087b"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/licenses/dependencies/numpy_license.txt",
+      "bytes": 1542,
+      "sha256": "a646829968cf88f9597ba02682571a060f3a8dd2e2dcc45290e67b088663c392"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/licenses/dependencies/torch_license.txt",
+      "bytes": 3206,
+      "sha256": "e0a8cbc8d9a8b6b748ff8b7816a14752143312905b5670a23cd005026a9010f3"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/__init__.py",
+      "bytes": 1661,
+      "sha256": "5c70c5a865ae3a49f5201bfc873678548b69f3b0ddec4d00bcf8bf28bb24f33d"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/algorithms/__init__.py",
+      "bytes": 1711,
+      "sha256": "505a46aa19deb45dc3df3a6402d8544c2a751f020870e04632f3ccb5ab03def8"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/algorithms/him_anchored_ppo.py",
+      "bytes": 2899,
+      "sha256": "faaf7a26fcc9915191c018371bd820fd02184590949b9e2038e6eb49758b403a"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/algorithms/him_frozen_estimator_ppo.py",
+      "bytes": 2189,
+      "sha256": "baf1a139b9f3da5641f12cd6e744134ddc8e11f1000c140a11e29f6a83b64a5f"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/algorithms/him_lateral_ppo.py",
+      "bytes": 4278,
+      "sha256": "2dc968c455ed5860fc907da0d1f29345c5c9f8e4f83dab32cc75a035b0ff89ee"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/algorithms/him_ppo.py",
+      "bytes": 9184,
+      "sha256": "65ba76bfd9145c55a2b3c8df47b280fa38e76e3004c9a149f4913a8a6a7fb20b"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/algorithms/him_rear_teacher_ppo.py",
+      "bytes": 11332,
+      "sha256": "9946578b199c604dbf1f97fb5cbb3b5d48297d594c7dbff420370419793b9cb5"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/algorithms/him_right_rear_only_ppo.py",
+      "bytes": 7126,
+      "sha256": "98aba8f038efb316f5563f311cfe9ad730f8d2bd99fb2a797cc164896f4023c7"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/algorithms/him_right_rear_split_ppo.py",
+      "bytes": 2875,
+      "sha256": "566265fbca3ba46b4024c6e86bdd7c026b55e996c7a8e840d4637b0ba8b0ece9"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/algorithms/ppo.py",
+      "bytes": 9027,
+      "sha256": "33d531858767e49bbffce8030ac2879a30a00a64caeef0f87502285fa15301cd"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/env/__init__.py",
+      "bytes": 1690,
+      "sha256": "b4c617f8535f521496d62b4b057e6523a6d2f83520e3c0ce3a0c2ee0ef028b5c"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/env/vec_env.py",
+      "bytes": 2574,
+      "sha256": "6e8f46bec6a4081f4248f010bf5641f71b51cdbaa0282bce76e6ef5580caace7"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/modules/__init__.py",
+      "bytes": 1842,
+      "sha256": "af90e783dc7d5970156f03aca7af8cea9c6ba767066b06fdbdebdce8334c1557"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/modules/actor_critic.py",
+      "bytes": 5903,
+      "sha256": "7113dd5cfcc8a7220400b50e07a33fd7261cea31c781728156051ea36af0b991"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/modules/actor_critic_recurrent.py",
+      "bytes": 5301,
+      "sha256": "db5eeb05c963e5ab61829b076a7360ce9441deb0441cca7e08d214623cadce3c"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/modules/him_actor_critic.py",
+      "bytes": 7481,
+      "sha256": "c516cb3b7bc3b6734182547bacaa6eb6fb0604fac9a0708ff87d869a79c17cc6"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/modules/him_estimator.py",
+      "bytes": 5195,
+      "sha256": "a0cb97016fce9714168f357358dd50d0fb2eaba0017fe37ed5bbc469727024d2"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/modules/him_lateral.py",
+      "bytes": 2826,
+      "sha256": "1c9e2552cf63f579d36bb17860b593406f1a01da65779f5842826c81fa10ac48"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/modules/him_right_rear_only.py",
+      "bytes": 4514,
+      "sha256": "32e77fee961213011531d5d396b35999c3efd8e38e07dcc21af45666ded8d79b"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/runners/__init__.py",
+      "bytes": 1759,
+      "sha256": "de0ee4dbd46834248a4a68a704caa9132dd0d8c64fcb8b9a9a49634d7851e54e"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/runners/him_front_pose_runner.py",
+      "bytes": 1980,
+      "sha256": "8e2a0c621c2022393afee7bc1cca3d4b965015d74269e099edf3b4038718db68"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/runners/him_lateral_runner.py",
+      "bytes": 2620,
+      "sha256": "c5b9a8bae2ce633def5a8449cd01b1953f0093f3e21066da6169c1004d3b1fcf"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/runners/him_legacy_lateral_runner.py",
+      "bytes": 3141,
+      "sha256": "05d0718754c91c7449f9de4b7d1303366793a6e71a239fea39b112d586062e88"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/runners/him_native_side_runner.py",
+      "bytes": 1384,
+      "sha256": "c92805c92ca955d90ac808ded1b730189f671c3d8fe127241c4f6814528d6ac3"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/runners/him_native_side_speed_runner.py",
+      "bytes": 1342,
+      "sha256": "b3ae62f328d88ac2e68994ec2b8cb043a0f7f4944f36c6d3a4ed451e7b49d436"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/runners/him_on_policy_runner.py",
+      "bytes": 14617,
+      "sha256": "a522d0bf71fa3142c67e44f16a61c176a627329c1bd8b7701ed5097cae770f49"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/runners/him_side_coordination_runner.py",
+      "bytes": 1987,
+      "sha256": "99293a6ce9f3ea84c093500120217ac6e76d646866614ac6b1616ce6c4d29ed0"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/runners/on_policy_runner.py",
+      "bytes": 12496,
+      "sha256": "3a704d0cdf74c4637dc34e25660de122308a0443a0a91eff03b1bbcafe3fb8d7"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/storage/__init__.py",
+      "bytes": 185,
+      "sha256": "9a444069b471b5abaa0b6d0a69fdab198def06ad10b5bc5a337e42e1e5b95594"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/storage/him_rollout_storage.py",
+      "bytes": 8487,
+      "sha256": "971369bb58bdc43e737f317f5ae57443df8f46de463597ee732150c5389bfd9a"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/storage/rollout_storage.py",
+      "bytes": 12165,
+      "sha256": "0ad19bda4b39f06b869426a70462d438a46fdbffcf91d21a247eb203c049128e"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/utils/__init__.py",
+      "bytes": 1728,
+      "sha256": "6a29eb8996bfc2a2d799282851f6d23fbe446a9e743ad1aeb8031026c101183c"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/rsl_rl/utils/utils.py",
+      "bytes": 3775,
+      "sha256": "c883c535b2a7eda3ffdc2200505a4ae36dc12cdcf9fc6d306eb2b30f64f202fc"
+    },
+    {
+      "path": "HIMLoco/rsl_rl/setup.py",
+      "bytes": 497,
+      "sha256": "e179ed9cf1599243088c1337032d4dc241304cdc36a764762007c0289b715bc4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2697,
+      "sha256": "2ae4000fc117de295358162b027e63bfe1836c3a691fde16b55e654599bb3d52"
+    },
+    {
+      "path": "docs/lz_q1l_baseline_v8_lateral.md",
+      "bytes": 2058,
+      "sha256": "5d772c728b0488e336bf528127a5d8bf08500271d93eb3c5956676766963fe26"
+    },
+    {
+      "path": "docs/lz_q1l_front_pose_300.md",
+      "bytes": 2307,
+      "sha256": "1d4ef611e47a2963e7727ec23ef8c4ee50a9a62e75abf7b8e108ae870e5f9d9e"
+    },
+    {
+      "path": "docs/lz_q1l_gait_height_balance_proposal.md",
+      "bytes": 4375,
+      "sha256": "8939586d7ad0db08c34cb3bf315e850c6dafb88b5625fa66e4ca8b732a09c0cb"
+    },
+    {
+      "path": "docs/lz_q1l_lateral_cycle_080.md",
+      "bytes": 2651,
+      "sha256": "604c3fe4ddd62a1908df3e0c389fa6df2fbccd16011f40f6fa01dfffb99383d3"
+    },
+    {
+      "path": "docs/lz_q1l_mirror.md",
+      "bytes": 6815,
+      "sha256": "c60e3f58b9db7c0eaa6d0ac82e8d11908b44a7b6c1a076dc19fc6f52b07ade6b"
+    },
+    {
+      "path": "docs/lz_q1l_native_side_anchor.md",
+      "bytes": 2332,
+      "sha256": "d61e10ea0a7dabf8a260e1fc40c56e4f282dd9ff8614467361dabfe7cd01b705"
+    },
+    {
+      "path": "docs/lz_q1l_native_side_height.md",
+      "bytes": 1965,
+      "sha256": "3803745c04351132ee6cd0b8daa5a5bf71c51c40b5650699f33cc487ba9a693f"
+    },
+    {
+      "path": "docs/lz_q1l_native_side_height1ms.md",
+      "bytes": 1643,
+      "sha256": "efd58062d66a8d4a5d1d5d419bdcbbe3fe26f27728f0672bfc36f04192b3ffc1"
+    },
+    {
+      "path": "docs/lz_q1l_native_side_speed.md",
+      "bytes": 2018,
+      "sha256": "8928146091181ae325a2f826f0afcb084744045e8e5902871677a2df48888b34"
+    },
+    {
+      "path": "docs/lz_q1l_new_v2_gait_review.md",
+      "bytes": 6257,
+      "sha256": "2925324ac0ac48300e53aaa545f4cac41bee2afbd71acdb548bf17a03f866a02"
+    },
+    {
+      "path": "docs/lz_q1l_new_v2_review.md",
+      "bytes": 5821,
+      "sha256": "fc8f2b5d635ed724f9b3f78886331fc514c7b819e72f00d7a8f4de82ec258371"
+    },
+    {
+      "path": "docs/lz_q1l_new_v3_review.md",
+      "bytes": 6833,
+      "sha256": "26836f8d60975e4619261204a873950b760665760895f9352bafad43fe26d871"
+    },
+    {
+      "path": "docs/lz_q1l_new_v4_lateral_review.md",
+      "bytes": 6784,
+      "sha256": "1eb4e86c3eabc6308d8ed80b5b3304fd86706264595afec66dc4337e1fd8e224"
+    },
+    {
+      "path": "docs/lz_q1l_side_coordination_review.md",
+      "bytes": 5746,
+      "sha256": "8c89548616399819dbfb4464219b708ce82e28f7a8cff6e201cd1767bef66ffa"
+    },
+    {
+      "path": "docs/lz_q1l_soft_slip_review.md",
+      "bytes": 4220,
+      "sha256": "175830972e50df4567f6db9a8fd533876641f80a170499635310557d469956c4"
+    },
+    {
+      "path": "docs/lz_q1l_v3_right_rear_only_review.md",
+      "bytes": 5441,
+      "sha256": "2b4ca5766e86161a4c0da6fd8c16117d0d128e5c34d23e5922881056f094d854"
+    },
+    {
+      "path": "docs/lz_q1l_v3_sweep_plan.md",
+      "bytes": 2517,
+      "sha256": "50c22e9efee5b348db03b97a10a33157d92631c43309f6f0725e5a9e6fe46619"
+    },
+    {
+      "path": "docs/lz_q1l_v8_4ms.md",
+      "bytes": 1458,
+      "sha256": "1c66fb22f79696d4828f345bd6eca36ecd6d123cb26c392b108d2d7f43e419c3"
+    },
+    {
+      "path": "docs/robot_params_LZ-Q1L.md",
+      "bytes": 13012,
+      "sha256": "b0647971acaff9ad93c1ea91e78179b37774d8dea3d3556658974f07fd0ea2cd"
+    },
+    {
+      "path": "env.sh",
+      "bytes": 339,
+      "sha256": "ed66687e7ebb17a2ee94f7807e6645e590ba062141f7f4de551f46ab954d324f"
+    },
+    {
+      "path": "media/soft_slip300_replay_20261029/analysis_output.json",
+      "bytes": 24463,
+      "sha256": "53529cb9d4dbcf933c36431bad009398d8a4b91a15a8e165e03173798cbd9717"
+    },
+    {
+      "path": "media/soft_slip300_replay_20261029/analyze.py",
+      "bytes": 2657,
+      "sha256": "a2dd9d82af586a7a792c1080dd2b0563a9bb0a1c9e434c4216def1fdc77648e2"
+    },
+    {
+      "path": "media/soft_slip300_replay_20261029/latest_result.json",
+      "bytes": 10042,
+      "sha256": "ca644d554c681e9afed2ae5eebf505381c08cf28e5c83cb72d2e4fe0168b2bd2"
+    },
+    {
+      "path": "media/soft_slip300_replay_20261029/left_before_after.json",
+      "bytes": 6419,
+      "sha256": "e37b0f4a6e0f75e15edbe1fc42d4ab69c6dbab28d2d279dfe33c5e2ed4a0d77c"
+    },
+    {
+      "path": "media/soft_slip300_replay_20261029/plan.json",
+      "bytes": 517,
+      "sha256": "0fdab7de95eac8d05f529dc614f7be1cc2b3286173098a28828960ccfa317941"
+    },
+    {
+      "path": "media/soft_slip300_replay_20261029/publish.py",
+      "bytes": 3720,
+      "sha256": "d03a5c6e141488c7665be8366b15430dd93201a8b169be280645afb996ea0dbd"
+    },
+    {
+      "path": "media/soft_slip300_replay_20261029/record.py",
+      "bytes": 13613,
+      "sha256": "8284162eb7e481c1a2a1c20f0ff719fdb88484add8cab2791d3a0deef4c66f11"
+    },
+    {
+      "path": "media/soft_slip300_replay_20261029/record.sh",
+      "bytes": 1661,
+      "sha256": "75d0dac09d30c07e697ec9e53a64c706d22d747d5556a5decdd6cf4858171757"
+    },
+    {
+      "path": "media/soft_slip300_replay_20261029/selected.json",
+      "bytes": 419,
+      "sha256": "7c2cc6bb3e1a63f29c0ffaabf5b16b781e1d5c5a20dfc476a87e0438aa20663a"
+    },
+    {
+      "path": "media/v3_stand_walk_20261027/check_policy.py",
+      "bytes": 3359,
+      "sha256": "942a9ebbd37575719e72218a9b1638091f6fc400e974b46898651995d92ac2a2"
+    },
+    {
+      "path": "media/v3_stand_walk_20261027/evaluate.py",
+      "bytes": 6741,
+      "sha256": "dba828239429adf29d445bff22184dc3bebf71419f8a72b6bb0d4c038488a5c9"
+    },
+    {
+      "path": "media/v3_stand_walk_20261027/evaluate.sh",
+      "bytes": 770,
+      "sha256": "3d3154fabf57497e747d378418d0b0a7cdaaf99b7c5eb4a3f267fb879e709722"
+    },
+    {
+      "path": "media/v3_stand_walk_20261027/implementation_manifest.json",
+      "bytes": 867,
+      "sha256": "38fe876fd5a548e7ef1bd95f50b9bf34cdffd136c415f4ff16a490cd023e702e"
+    },
+    {
+      "path": "media/v3_stand_walk_20261027/latest_result.json",
+      "bytes": 10010,
+      "sha256": "a55a526c1131e3c0cb57e0ad9ffcd85237678a5e1fece4ed157f55f2b84c30be"
+    },
+    {
+      "path": "media/v3_stand_walk_20261027/policy_checks.json",
+      "bytes": 992,
+      "sha256": "c51b33e9f64e5b3c9479ce646eaede76046f8cf09d8c5132ff20e94caca90473"
+    },
+    {
+      "path": "media/v3_stand_walk_20261027/publish.py",
+      "bytes": 4308,
+      "sha256": "34426f778b55dc7a612e536a7469769a9b46964925b6da888df89cebea376acd"
+    },
+    {
+      "path": "media/v3_stand_walk_20261027/record.py",
+      "bytes": 12379,
+      "sha256": "216400b088293c68597fb52e10e5dcff87de6cf483c4f1d1ba1a9abb5558e03d"
+    },
+    {
+      "path": "media/v3_stand_walk_20261027/record.sh",
+      "bytes": 1614,
+      "sha256": "eb897f3d44eeff7a8b7ecb118a29faff800fe4aac76405d599049d37ad0e50fa"
+    },
+    {
+      "path": "media/v3_stand_walk_20261027/selected.json",
+      "bytes": 309,
+      "sha256": "962dfff1b93e9fd991b65d1acabae302683cd467cc4892d5212824fd1e5bc07a"
+    },
+    {
+      "path": "media/v3_stand_walk_20261027/summarize.py",
+      "bytes": 4627,
+      "sha256": "8662f654af657259d9aef4ca640d17c9d8021c8275b8f76d26041e6a08cc7b65"
+    },
+    {
+      "path": "models/forward/env_config.json",
+      "bytes": 7620,
+      "sha256": "cad5d496c066b4d31c58c56d3e3bd9e6ff5554b87cae906b6f8baab2822bc5e2"
+    },
+    {
+      "path": "models/forward/model_800.pt",
+      "bytes": 4705183,
+      "sha256": "23d99708723bacb0a5cc5c473a66e76f076a3444a738a1a27c1a9f9d6b937086"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/legged_gym/legged_gym/envs/__init__.py",
+      "bytes": 7444,
+      "sha256": "4dd361964e9c876e7dda224261fc99448fd72aac7845f73dd5a9bf719a655f68"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/legged_gym/legged_gym/envs/base/legged_robot.py",
+      "bytes": 67743,
+      "sha256": "4be9c8a9dac2e41a755465410837bb0f7c01bd5a911d175b1b726c73f477546d"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/legged_gym/legged_gym/envs/base/legged_robot_config.py",
+      "bytes": 11067,
+      "sha256": "a0230fa99691a3dd28f077bf30a2432efb998def950b2be98f623fd1b303d55b"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l.py",
+      "bytes": 4694,
+      "sha256": "ee697c70634f5dffb0b1e3020064ced5f3a1d9c02d7d53b48d58e3a64210901f"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2.py",
+      "bytes": 36656,
+      "sha256": "e8bd3108f12a9ffe4a3ac213c5399b633fa552d21542d37149d50c52c7569b64"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2_config.py",
+      "bytes": 12323,
+      "sha256": "1f55853de9c6b455a63f7f59d2013d826cab4043bcb57d5021736e273f7a3444"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_config.py",
+      "bytes": 8230,
+      "sha256": "6c76372268c79b00c2791f8a895d8013f060563c3a55cfdd2bdadb9badf54db7"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/legged_gym/legged_gym/utils/lz_q1l_mirror.py",
+      "bytes": 4834,
+      "sha256": "edd8b4e397902c4175b961595f1a936e2cf82abb708fac116f438cd6b4f5b216"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/legged_gym/resources/robots/lz_q1l/urdf/lz_q1l.urdf",
+      "bytes": 22278,
+      "sha256": "3c4a5128e3ca05fd803de8859290354aad2b76137da11d0a8397dd97f7d59dda"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/rsl_rl/rsl_rl/algorithms/him_ppo.py",
+      "bytes": 9184,
+      "sha256": "65ba76bfd9145c55a2b3c8df47b280fa38e76e3004c9a149f4913a8a6a7fb20b"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/rsl_rl/rsl_rl/algorithms/him_rear_teacher_ppo.py",
+      "bytes": 11332,
+      "sha256": "9946578b199c604dbf1f97fb5cbb3b5d48297d594c7dbff420370419793b9cb5"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/rsl_rl/rsl_rl/algorithms/him_right_rear_only_ppo.py",
+      "bytes": 7126,
+      "sha256": "98aba8f038efb316f5563f311cfe9ad730f8d2bd99fb2a797cc164896f4023c7"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/rsl_rl/rsl_rl/algorithms/him_right_rear_split_ppo.py",
+      "bytes": 2875,
+      "sha256": "566265fbca3ba46b4024c6e86bdd7c026b55e996c7a8e840d4637b0ba8b0ece9"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/rsl_rl/rsl_rl/modules/him_actor_critic.py",
+      "bytes": 7481,
+      "sha256": "c516cb3b7bc3b6734182547bacaa6eb6fb0604fac9a0708ff87d869a79c17cc6"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/rsl_rl/rsl_rl/modules/him_estimator.py",
+      "bytes": 5195,
+      "sha256": "a0cb97016fce9714168f357358dd50d0fb2eaba0017fe37ed5bbc469727024d2"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/rsl_rl/rsl_rl/modules/him_right_rear_only.py",
+      "bytes": 4514,
+      "sha256": "32e77fee961213011531d5d396b35999c3efd8e38e07dcc21af45666ded8d79b"
+    },
+    {
+      "path": "models/forward/provenance/HIMLoco/rsl_rl/rsl_rl/runners/him_on_policy_runner.py",
+      "bytes": 14617,
+      "sha256": "a522d0bf71fa3142c67e44f16a61c176a627329c1bd8b7701ed5097cae770f49"
+    },
+    {
+      "path": "models/forward/provenance/tools/check_lz_q1l_v2_gait.py",
+      "bytes": 12153,
+      "sha256": "76a89e9fd50fa79d66b32170153ff2fb459aa08ae5a2a4bdb5e188e6d1d378ca"
+    },
+    {
+      "path": "models/forward/provenance/tools/check_lz_q1l_v3_right_rear_only.py",
+      "bytes": 8650,
+      "sha256": "7bdc0c15830c9f8bf5bb78af79c0a7091d9ff23923ae6a93472ede4ea27926fa"
+    },
+    {
+      "path": "models/forward/provenance/tools/check_lz_q1l_v3_right_rear_only.sh",
+      "bytes": 444,
+      "sha256": "41db2b9733196fdd9efe42f784b598ec4aa966b2b049991c7fe42d8b117dfb63"
+    },
+    {
+      "path": "models/forward/provenance/tools/eval_lz_q1l_posture.py",
+      "bytes": 8975,
+      "sha256": "73c54e8f44323ffedbc9a1670d082e335305d5bdbbfb41087ef31441c42496e9"
+    },
+    {
+      "path": "models/forward/provenance/tools/launch_lz_q1l_v3_right_rear_split_600.py",
+      "bytes": 7030,
+      "sha256": "c96caca5b8c3a28aaeca776ea75d5352e0c3b82dfc70b9a1d9f831ef895f25e7"
+    },
+    {
+      "path": "models/forward/provenance/tools/queue_lz_q1l_v2_gait.py",
+      "bytes": 7060,
+      "sha256": "0a85af81a15aa811496ba7823f1f6e649a2e318a38f40107030d08676dc84618"
+    },
+    {
+      "path": "models/forward/provenance/tools/queue_lz_q1l_v3_right_rear_split_800.py",
+      "bytes": 7826,
+      "sha256": "d1796c2737c84e75ac1e5be6134b79e613019f96b8eced241b186e816822b2fd"
+    },
+    {
+      "path": "models/forward/provenance/tools/start_lz_q1l_v2_gait_200.sh",
+      "bytes": 410,
+      "sha256": "4e6ddd5cd17d46f6f61dc265f546e42625de23eaaa40673f3eb2f522e95f5026"
+    },
+    {
+      "path": "models/forward/provenance/tools/start_lz_q1l_v2_posture_500.sh",
+      "bytes": 3839,
+      "sha256": "b2eca882236567b688d189cfe074d53cf05f706b4efd590efa8cfe01d8d73d49"
+    },
+    {
+      "path": "models/forward/provenance/tools/start_lz_q1l_v3_right_rear_split_600.sh",
+      "bytes": 427,
+      "sha256": "f7e1eef13329d5f5a9cdf520b86a24609a0588594a2c5e8c60c75e3eb11cc9dd"
+    },
+    {
+      "path": "models/forward/provenance/tools/start_lz_q1l_v3_right_rear_split_800.sh",
+      "bytes": 426,
+      "sha256": "0e474be1186d293d6cca48674a8c501cfd67499bf304da57439725e6858531d6"
+    },
+    {
+      "path": "models/forward/provenance/tools/train_lz_q1l_v1_support_500.py",
+      "bytes": 9958,
+      "sha256": "bcc9b9ffd985a889f0238be4316e1d0ce5a2e0fcd77ea6c501f1924921f865c1"
+    },
+    {
+      "path": "models/forward/provenance/tools/train_lz_q1l_v2_gait.py",
+      "bytes": 7609,
+      "sha256": "5dbac763f2939d22b63b5ddbc27302747a4dcbb8561e1322f909d99803ce22c7"
+    },
+    {
+      "path": "models/forward/provenance/tools/train_lz_q1l_v2_posture.py",
+      "bytes": 11401,
+      "sha256": "17bc944ee4ca2f548dd07a1874b6c09ae7e3d0f214e282ceae14441d167f6645"
+    },
+    {
+      "path": "models/forward/provenance/tools/train_lz_q1l_v2_unified.py",
+      "bytes": 9044,
+      "sha256": "b2e251009525adae3cb6e0d1fde1463fc86aaed8bcbf33539f4a706c72dbdcd8"
+    },
+    {
+      "path": "models/forward/provenance/tools/train_lz_q1l_v3_right_rear_only.py",
+      "bytes": 9634,
+      "sha256": "3cf87cf8f41154c13b31d5c9617486139236fd9ad65d370de647f1a56d383168"
+    },
+    {
+      "path": "models/forward/provenance/tools/train_lz_q1l_v3_right_rear_split.py",
+      "bytes": 10849,
+      "sha256": "76b56e2f5369d485ba30a192a4c2fa9380a7839716bd8994fae03a230428acae"
+    },
+    {
+      "path": "models/forward/provenance/tools/train_lz_q1l_v3_right_rear_split_extend.py",
+      "bytes": 10938,
+      "sha256": "ad6237f5919b4e7bff0f845580c0841cf580d0d884341af401f98b211f9908c1"
+    },
+    {
+      "path": "models/forward/run_metadata.json",
+      "bytes": 6077,
+      "sha256": "60cacfe588456877150c75702beb15632dfae5cd921ad437ea6e1a24af9dd3e1"
+    },
+    {
+      "path": "models/forward/train_config.json",
+      "bytes": 1340,
+      "sha256": "b422f9b16b09fb090dc98ac2120b1e61cac1c30839ab71d534dcc2ea20cec8a8"
+    },
+    {
+      "path": "models/lateral/env_config.json",
+      "bytes": 7383,
+      "sha256": "1caf5a792b66a8badb99655f00bd4aa5404f2ae322f305c5cd94f658db4c5f40"
+    },
+    {
+      "path": "models/lateral/model_300.pt",
+      "bytes": 6094693,
+      "sha256": "83220db5c029cfc4cf7563ff76b037f9301d6dadc186b86d0d81f269be5b97d6"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/legged_gym/legged_gym/envs/__init__.py",
+      "bytes": 10606,
+      "sha256": "868e2c0b9950188bd718be11229a8d89059f25443675235caf3abfef2524aedb"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/legged_gym/legged_gym/envs/base/legged_robot.py",
+      "bytes": 67743,
+      "sha256": "4be9c8a9dac2e41a755465410837bb0f7c01bd5a911d175b1b726c73f477546d"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/legged_gym/legged_gym/envs/base/legged_robot_config.py",
+      "bytes": 11067,
+      "sha256": "a0230fa99691a3dd28f077bf30a2432efb998def950b2be98f623fd1b303d55b"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l.py",
+      "bytes": 4694,
+      "sha256": "ee697c70634f5dffb0b1e3020064ced5f3a1d9c02d7d53b48d58e3a64210901f"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2.py",
+      "bytes": 57578,
+      "sha256": "e51f99575e023f309b495f52d6269f211fd2c091fbcedb500620a0b75a3bd1f1"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2_config.py",
+      "bytes": 22354,
+      "sha256": "a5a9357bf63d6ac16ae5a57a2f9e106ea2866d704f65236760bd345dbbd5edfc"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_config.py",
+      "bytes": 8230,
+      "sha256": "6c76372268c79b00c2791f8a895d8013f060563c3a55cfdd2bdadb9badf54db7"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/legged_gym/legged_gym/utils/lz_q1l_cadence.py",
+      "bytes": 2894,
+      "sha256": "2aec687723a3456195aaeab9f474686167c0e9764fa355bc8151e8533083e2a2"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/legged_gym/legged_gym/utils/lz_q1l_front_pose.py",
+      "bytes": 1533,
+      "sha256": "ea6fe4a85d931934b89f5c7c97cf3b039da291b37b576bec78f85c2e6623f5f9"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/legged_gym/legged_gym/utils/lz_q1l_mirror.py",
+      "bytes": 4834,
+      "sha256": "edd8b4e397902c4175b961595f1a936e2cf82abb708fac116f438cd6b4f5b216"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/legged_gym/legged_gym/utils/lz_q1l_side_coordination.py",
+      "bytes": 4406,
+      "sha256": "39fbf3fcb51160ef57a8929615bdd4324e7aabb182550074105043be40c68ec9"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/legged_gym/legged_gym/utils/task_registry.py",
+      "bytes": 8833,
+      "sha256": "2ed3923f2815b9145870c4954dbb402726c0aabe76b1eb78b82467b3e85fde2e"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/legged_gym/resources/robots/lz_q1l/urdf/lz_q1l.urdf",
+      "bytes": 22278,
+      "sha256": "3c4a5128e3ca05fd803de8859290354aad2b76137da11d0a8397dd97f7d59dda"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/rsl_rl/rsl_rl/algorithms/him_frozen_estimator_ppo.py",
+      "bytes": 2189,
+      "sha256": "baf1a139b9f3da5641f12cd6e744134ddc8e11f1000c140a11e29f6a83b64a5f"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/rsl_rl/rsl_rl/algorithms/him_ppo.py",
+      "bytes": 9184,
+      "sha256": "65ba76bfd9145c55a2b3c8df47b280fa38e76e3004c9a149f4913a8a6a7fb20b"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/rsl_rl/rsl_rl/modules/him_actor_critic.py",
+      "bytes": 7481,
+      "sha256": "c516cb3b7bc3b6734182547bacaa6eb6fb0604fac9a0708ff87d869a79c17cc6"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/rsl_rl/rsl_rl/modules/him_estimator.py",
+      "bytes": 5195,
+      "sha256": "a0cb97016fce9714168f357358dd50d0fb2eaba0017fe37ed5bbc469727024d2"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/rsl_rl/rsl_rl/runners/him_front_pose_runner.py",
+      "bytes": 1980,
+      "sha256": "8e2a0c621c2022393afee7bc1cca3d4b965015d74269e099edf3b4038718db68"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/rsl_rl/rsl_rl/runners/him_native_side_speed_runner.py",
+      "bytes": 1342,
+      "sha256": "b3ae62f328d88ac2e68994ec2b8cb043a0f7f4944f36c6d3a4ed451e7b49d436"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/rsl_rl/rsl_rl/runners/him_on_policy_runner.py",
+      "bytes": 14617,
+      "sha256": "a522d0bf71fa3142c67e44f16a61c176a627329c1bd8b7701ed5097cae770f49"
+    },
+    {
+      "path": "models/lateral/provenance/HIMLoco/rsl_rl/rsl_rl/runners/him_side_coordination_runner.py",
+      "bytes": 1987,
+      "sha256": "99293a6ce9f3ea84c093500120217ac6e76d646866614ac6b1616ce6c4d29ed0"
+    },
+    {
+      "path": "models/lateral/provenance/tools/check_lz_q1l_front_pose.py",
+      "bytes": 7902,
+      "sha256": "39521f98e733e58fbcec7fd53f89125249edb2e810737c50a263fa95df796f3c"
+    },
+    {
+      "path": "models/lateral/provenance/tools/check_lz_q1l_side_coordination.py",
+      "bytes": 10649,
+      "sha256": "e3a7a309b81691f10e25d1f4963913ba7ded8ec221dfe739d5f349ae2012ee99"
+    },
+    {
+      "path": "models/lateral/provenance/tools/check_lz_q1l_side_coordination.sh",
+      "bytes": 408,
+      "sha256": "c05cd070e0b498d8a8755b898e7631f16326d7b99599114b76394bd4876be08a"
+    },
+    {
+      "path": "models/lateral/provenance/tools/check_lz_q1l_soft_slip.py",
+      "bytes": 6319,
+      "sha256": "b74e0a9120215c64cc808f968915fc2a4a4fabb0dc66210599c99934ca32dd3c"
+    },
+    {
+      "path": "models/lateral/provenance/tools/launch_lz_q1l_front_pose.py",
+      "bytes": 2523,
+      "sha256": "a0056c7f40a1efd31259f26f7372762b7aa7508b05cec936018b1c58c193a3b7"
+    },
+    {
+      "path": "models/lateral/provenance/tools/launch_lz_q1l_side_coordination.py",
+      "bytes": 2544,
+      "sha256": "e409a27e782878f71b5a83016d7766e29d2af8468e5ec4e8a062f5654fc3b154"
+    },
+    {
+      "path": "models/lateral/provenance/tools/launch_lz_q1l_soft_slip.py",
+      "bytes": 2553,
+      "sha256": "f4bdf6489413c7b896f113a94bdfbcff361f35209857d1e75f483c023ef50ee4"
+    },
+    {
+      "path": "models/lateral/provenance/tools/run_lz_q1l_front_pose.sh",
+      "bytes": 557,
+      "sha256": "9db48b99381751cba63dbde9633aecd794b5a6a2788f6018468248a40585a3d3"
+    },
+    {
+      "path": "models/lateral/provenance/tools/run_lz_q1l_side_coordination.sh",
+      "bytes": 564,
+      "sha256": "e52e02374939b6fce2a4824d7f918ee9f3ab481121312785ff763260f91a4186"
+    },
+    {
+      "path": "models/lateral/provenance/tools/run_lz_q1l_soft_slip.sh",
+      "bytes": 556,
+      "sha256": "4679fdaf12f80198b12a4e8fd1a8836e66688853ce3d7fbd944407a7f0bcbd42"
+    },
+    {
+      "path": "models/lateral/provenance/tools/train_lz_q1l_front_pose.py",
+      "bytes": 8006,
+      "sha256": "0f5b99a2eed3da513a80c8d4917ac3d29233ab630f18f3e6ae671203a2515ae3"
+    },
+    {
+      "path": "models/lateral/provenance/tools/train_lz_q1l_native_side_height1ms.py",
+      "bytes": 14760,
+      "sha256": "30d4332389f71dada2823941928b3959fe418e8781da113a088bce157b553ec4"
+    },
+    {
+      "path": "models/lateral/provenance/tools/train_lz_q1l_side_coordination.py",
+      "bytes": 8065,
+      "sha256": "d99c00ff77dfbf192cbd92708e7259f76c8881ca4744e501df5d381f01b00601"
+    },
+    {
+      "path": "models/lateral/provenance/tools/train_lz_q1l_soft_slip.py",
+      "bytes": 8056,
+      "sha256": "28048554dc75bb0e9d6ea271711cf06c3ce9722a8d12014f9ced58b0b1467b3a"
+    },
+    {
+      "path": "models/lateral/run_metadata.json",
+      "bytes": 5543,
+      "sha256": "0e8007faf5ab1d141fc9994ac116ebf74b09fe6a7a27ae2059210fdb83a15587"
+    },
+    {
+      "path": "models/lateral/train_config.json",
+      "bytes": 1241,
+      "sha256": "3e6983bc9f0158deea3df2c58d20fa62936fe84490d708aac8379a77e1ee2b2c"
+    },
+    {
+      "path": "models/manifest.json",
+      "bytes": 2316,
+      "sha256": "7b2888ed45f5a150d656c11a20e765fda17b062ab3e1aaeae331bad6b5f57a89"
+    },
+    {
+      "path": "models/standing/env_config.json",
+      "bytes": 7620,
+      "sha256": "cad5d496c066b4d31c58c56d3e3bd9e6ff5554b87cae906b6f8baab2822bc5e2"
+    },
+    {
+      "path": "models/standing/gait_150.pt",
+      "bytes": 7065753,
+      "sha256": "655a5022f2e1404c8f7c3dfbb670cc8235710f78e7550e72f2343e4e2c5e9747"
+    },
+    {
+      "path": "models/standing/provenance/HIMLoco/legged_gym/legged_gym/envs/__init__.py",
+      "bytes": 4812,
+      "sha256": "a61372a9c9c1489f69e1e6806f745457376fb0881a1fac9d0274e84644f89132"
+    },
+    {
+      "path": "models/standing/provenance/HIMLoco/legged_gym/legged_gym/envs/base/legged_robot.py",
+      "bytes": 67743,
+      "sha256": "4be9c8a9dac2e41a755465410837bb0f7c01bd5a911d175b1b726c73f477546d"
+    },
+    {
+      "path": "models/standing/provenance/HIMLoco/legged_gym/legged_gym/envs/base/legged_robot_config.py",
+      "bytes": 11067,
+      "sha256": "a0230fa99691a3dd28f077bf30a2432efb998def950b2be98f623fd1b303d55b"
+    },
+    {
+      "path": "models/standing/provenance/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l.py",
+      "bytes": 4694,
+      "sha256": "ee697c70634f5dffb0b1e3020064ced5f3a1d9c02d7d53b48d58e3a64210901f"
+    },
+    {
+      "path": "models/standing/provenance/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2.py",
+      "bytes": 21490,
+      "sha256": "3b98153e457bc8f6417abd80a0f974a5a43a571ad55308992a9f55a20dd200b3"
+    },
+    {
+      "path": "models/standing/provenance/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2_config.py",
+      "bytes": 5306,
+      "sha256": "44fcdb534da97380ad6afbdca0ea6b72f58eda09d0cde9ec825468c522b4bfcf"
+    },
+    {
+      "path": "models/standing/provenance/HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_config.py",
+      "bytes": 8230,
+      "sha256": "6c76372268c79b00c2791f8a895d8013f060563c3a55cfdd2bdadb9badf54db7"
+    },
+    {
+      "path": "models/standing/provenance/HIMLoco/legged_gym/resources/robots/lz_q1l/urdf/lz_q1l.urdf",
+      "bytes": 22278,
+      "sha256": "3c4a5128e3ca05fd803de8859290354aad2b76137da11d0a8397dd97f7d59dda"
+    },
+    {
+      "path": "models/standing/provenance/HIMLoco/rsl_rl/rsl_rl/algorithms/him_ppo.py",
+      "bytes": 9184,
+      "sha256": "65ba76bfd9145c55a2b3c8df47b280fa38e76e3004c9a149f4913a8a6a7fb20b"
+    },
+    {
+      "path": "models/standing/provenance/HIMLoco/rsl_rl/rsl_rl/modules/him_actor_critic.py",
+      "bytes": 7481,
+      "sha256": "c516cb3b7bc3b6734182547bacaa6eb6fb0604fac9a0708ff87d869a79c17cc6"
+    },
+    {
+      "path": "models/standing/provenance/HIMLoco/rsl_rl/rsl_rl/modules/him_estimator.py",
+      "bytes": 5195,
+      "sha256": "a0cb97016fce9714168f357358dd50d0fb2eaba0017fe37ed5bbc469727024d2"
+    },
+    {
+      "path": "models/standing/provenance/HIMLoco/rsl_rl/rsl_rl/runners/him_on_policy_runner.py",
+      "bytes": 14166,
+      "sha256": "0438cc32d2d787a72c0ad0878452d84c69d6b1082885661187a3e46089aceb4c"
+    },
+    {
+      "path": "models/standing/provenance/tools/check_lz_q1l_v2_gait.py",
+      "bytes": 12153,
+      "sha256": "76a89e9fd50fa79d66b32170153ff2fb459aa08ae5a2a4bdb5e188e6d1d378ca"
+    },
+    {
+      "path": "models/standing/provenance/tools/eval_lz_q1l_posture.py",
+      "bytes": 8975,
+      "sha256": "73c54e8f44323ffedbc9a1670d082e335305d5bdbbfb41087ef31441c42496e9"
+    },
+    {
+      "path": "models/standing/provenance/tools/queue_lz_q1l_v2_gait.py",
+      "bytes": 7060,
+      "sha256": "0a85af81a15aa811496ba7823f1f6e649a2e318a38f40107030d08676dc84618"
+    },
+    {
+      "path": "models/standing/provenance/tools/start_lz_q1l_v2_gait_200.sh",
+      "bytes": 410,
+      "sha256": "4e6ddd5cd17d46f6f61dc265f546e42625de23eaaa40673f3eb2f522e95f5026"
+    },
+    {
+      "path": "models/standing/provenance/tools/start_lz_q1l_v2_posture_500.sh",
+      "bytes": 3839,
+      "sha256": "b2eca882236567b688d189cfe074d53cf05f706b4efd590efa8cfe01d8d73d49"
+    },
+    {
+      "path": "models/standing/provenance/tools/train_lz_q1l_v1_support_500.py",
+      "bytes": 9958,
+      "sha256": "bcc9b9ffd985a889f0238be4316e1d0ce5a2e0fcd77ea6c501f1924921f865c1"
+    },
+    {
+      "path": "models/standing/provenance/tools/train_lz_q1l_v2_gait.py",
+      "bytes": 7609,
+      "sha256": "5dbac763f2939d22b63b5ddbc27302747a4dcbb8561e1322f909d99803ce22c7"
+    },
+    {
+      "path": "models/standing/provenance/tools/train_lz_q1l_v2_posture.py",
+      "bytes": 11401,
+      "sha256": "17bc944ee4ca2f548dd07a1874b6c09ae7e3d0f214e282ceae14441d167f6645"
+    },
+    {
+      "path": "models/standing/provenance/tools/train_lz_q1l_v2_unified.py",
+      "bytes": 9044,
+      "sha256": "b2e251009525adae3cb6e0d1fde1463fc86aaed8bcbf33539f4a706c72dbdcd8"
+    },
+    {
+      "path": "models/standing/run_metadata.json",
+      "bytes": 3671,
+      "sha256": "c084bf2c5a2511445f8ee53496ce74500567df1202ca853faa0ca3e4b5ec5251"
+    },
+    {
+      "path": "models/standing/train_config.json",
+      "bytes": 990,
+      "sha256": "e04175bd0f1b35b9da8dfe87a4165722e17071da9f677f71f80b6aacdc7e714f"
+    },
+    {
+      "path": "tools/analyze_balanceroll200_comparison.py",
+      "bytes": 4057,
+      "sha256": "bcc825b2169fa1b1e8a3cca262976c73f1df87122ab77a3e5bb23306b957341a"
+    },
+    {
+      "path": "tools/analyze_gait200_convergence.py",
+      "bytes": 7302,
+      "sha256": "a56c42d2c307058620f1608994971ec471709145ccadb2d7951dbed307e07da0"
+    },
+    {
+      "path": "tools/analyze_height300_checkpoint_sweep.py",
+      "bytes": 4816,
+      "sha256": "365b306ea00aff971d7fbb24624a06293bbdc3c4886797d318bdceff9be70df7"
+    },
+    {
+      "path": "tools/analyze_height300_comparison.py",
+      "bytes": 7073,
+      "sha256": "38013e70f4e00aead801af7d84fc7e72e65a36f37cdfa7e17108204e8726297d"
+    },
+    {
+      "path": "tools/analyze_lz_q1l_gait200_comparison.py",
+      "bytes": 7073,
+      "sha256": "5ca5fe029ad715cb2d324f8aded9992984f4f120dba5d8979f883343d7cb9af4"
+    },
+    {
+      "path": "tools/analyze_policy_tracking.py",
+      "bytes": 8249,
+      "sha256": "05981063373cbda81925ec9496ea2f40cc348eaba01430a4c366dc6751de97f9"
+    },
+    {
+      "path": "tools/analyze_posture_convergence.py",
+      "bytes": 8454,
+      "sha256": "339e270bb9ca83443e02d661edcbdf65fa2f081e546872f031e1a36b4a9c1d3a"
+    },
+    {
+      "path": "tools/analyze_roll_joint_response.py",
+      "bytes": 5920,
+      "sha256": "b24f082e091b25275cf7a94abafadaa5d97011bab005bcd3fb0c4f93aee78214"
+    },
+    {
+      "path": "tools/analyze_standfront300_comparison.py",
+      "bytes": 4023,
+      "sha256": "e790f3c15ea8d2d0caa84c74a67eb6bb1857174d1be0669bbd615b626fbe6216"
+    },
+    {
+      "path": "tools/analyze_standfront300_pair.py",
+      "bytes": 4017,
+      "sha256": "d96705fbc6dab6f2a586554d509e2046b7e2219d1710c90d6e73a67a68be8674"
+    },
+    {
+      "path": "tools/analyze_upright150_comparison.py",
+      "bytes": 3902,
+      "sha256": "b10df2380e0a622f3be88ff97b07000f838ac5af71051a4ec7731157572d5c4b"
+    },
+    {
+      "path": "tools/analyze_v4_500_convergence.py",
+      "bytes": 8175,
+      "sha256": "346fb212eca4d70a222fe0bfd5f6e74f783215d2cc195de589d474fd40ff4d89"
+    },
+    {
+      "path": "tools/audit_lz_q1l_new_lineage.py",
+      "bytes": 10449,
+      "sha256": "c361fcb7f97691c5d3832e56d44a4eefd73a9f0a947dc9a664731e07eab1be13"
+    },
+    {
+      "path": "tools/audit_lz_q1l_training_directions.py",
+      "bytes": 1356,
+      "sha256": "d682cb7a82131ff845b94112522ed707a135d6db4ea4d2518ceb967ded752c3e"
+    },
+    {
+      "path": "tools/audit_lz_q1l_training_windows.py",
+      "bytes": 1416,
+      "sha256": "bf1d18a70fc6d10a2bdecb8b07b5aa9d3add41a5bcfecc1e88f1e5b314337a1b"
+    },
+    {
+      "path": "tools/build_lz_q1l_urdf.py",
+      "bytes": 3758,
+      "sha256": "9859967a6c283c039e347356a2f19196e9f50041c56eb02515aef4cecc420630"
+    },
+    {
+      "path": "tools/calibrate_lz_q1l_estimator.py",
+      "bytes": 19512,
+      "sha256": "bc86f3d4ad195e3523d8319e957918b5df87df1a6c054f873bf7c61bcc15f3b2"
+    },
+    {
+      "path": "tools/check_lz_q1l.py",
+      "bytes": 2419,
+      "sha256": "e93fad6e4dbf9dad674389921d03d109bbba87adb7abf1df2fa11e320a8567b0"
+    },
+    {
+      "path": "tools/check_lz_q1l_balance_roll.py",
+      "bytes": 8657,
+      "sha256": "05b66e1f643ab8af840313ae1a7be8df6bcdc70ac8a8f7c768c3ad34926cb394"
+    },
+    {
+      "path": "tools/check_lz_q1l_front_pose.py",
+      "bytes": 7902,
+      "sha256": "39521f98e733e58fbcec7fd53f89125249edb2e810737c50a263fa95df796f3c"
+    },
+    {
+      "path": "tools/check_lz_q1l_front_pose.sh",
+      "bytes": 401,
+      "sha256": "a8fa46e77fc7a577b1a990fa79b19f1680cdc6bc402dcceb3c953128e15d4b2e"
+    },
+    {
+      "path": "tools/check_lz_q1l_side_coordination.py",
+      "bytes": 10649,
+      "sha256": "e3a7a309b81691f10e25d1f4963913ba7ded8ec221dfe739d5f349ae2012ee99"
+    },
+    {
+      "path": "tools/check_lz_q1l_side_coordination.sh",
+      "bytes": 408,
+      "sha256": "c05cd070e0b498d8a8755b898e7631f16326d7b99599114b76394bd4876be08a"
+    },
+    {
+      "path": "tools/check_lz_q1l_side_load.py",
+      "bytes": 9854,
+      "sha256": "4cc6bae5bc13f1bc52d36f8ece1b3d764bfed6677ed31090e619c5975822ab66"
+    },
+    {
+      "path": "tools/check_lz_q1l_side_load.sh",
+      "bytes": 460,
+      "sha256": "7945a76cb21ba9a91a4202dbd6e66914f14bd057269d90d317c459662e37de04"
+    },
+    {
+      "path": "tools/check_lz_q1l_side_load_strong.py",
+      "bytes": 9869,
+      "sha256": "68e3fdfecde0a6e0d3a1c97875cd5e5f9a77e6c592abb9eff7ba86d6274bc976"
+    },
+    {
+      "path": "tools/check_lz_q1l_side_load_strong.sh",
+      "bytes": 486,
+      "sha256": "e668c668fdd2774298409364aa9e52fb346d6ca994116137b4245d932527906f"
+    },
+    {
+      "path": "tools/check_lz_q1l_soft_slip.py",
+      "bytes": 6319,
+      "sha256": "b74e0a9120215c64cc808f968915fc2a4a4fabb0dc66210599c99934ca32dd3c"
+    },
+    {
+      "path": "tools/check_lz_q1l_stand_balance.py",
+      "bytes": 8895,
+      "sha256": "b090354e5c5bded2d6e2b954732022fca31c9ba328ab095062a1245f248d04c0"
+    },
+    {
+      "path": "tools/check_lz_q1l_stand_front.py",
+      "bytes": 9119,
+      "sha256": "94e3986f8383a7644cd6643998411389b1269e21b1dd717f2df8a558871271d9"
+    },
+    {
+      "path": "tools/check_lz_q1l_stand_load.py",
+      "bytes": 9835,
+      "sha256": "eb6ad69256a3813e364d2b10b4ca1948e96c3c0c8498a89626205cebcd8acb10"
+    },
+    {
+      "path": "tools/check_lz_q1l_stand_load.sh",
+      "bytes": 463,
+      "sha256": "ee37c97647e0319ae2052e6fd5a3055dbf2a611983557204e1c5f11fdc99d373"
+    },
+    {
+      "path": "tools/check_lz_q1l_v1_support.py",
+      "bytes": 12783,
+      "sha256": "3185864d1f744bfca23e90feadf3e6072b69e1fb9edc00f6a8f148144d5ef380"
+    },
+    {
+      "path": "tools/check_lz_q1l_v2_gait.py",
+      "bytes": 12153,
+      "sha256": "76a89e9fd50fa79d66b32170153ff2fb459aa08ae5a2a4bdb5e188e6d1d378ca"
+    },
+    {
+      "path": "tools/check_lz_q1l_v2_unified.py",
+      "bytes": 9824,
+      "sha256": "b7deb250b4fe72445ac46064f7250fb57536048147bc4a49c6e0f959d553579b"
+    },
+    {
+      "path": "tools/check_lz_q1l_v3_rear_teacher.py",
+      "bytes": 12156,
+      "sha256": "a1b7a4ce94d8353bbb5d06240e56057f9b1cbf284f6ca61d925263cf2d421ad6"
+    },
+    {
+      "path": "tools/check_lz_q1l_v3_rear_teacher.sh",
+      "bytes": 438,
+      "sha256": "c4d1845abe02c5a31c6410deb8b53073b3b01aa25751fa1d53b00330fafe1316"
+    },
+    {
+      "path": "tools/check_lz_q1l_v3_right_rear_only.py",
+      "bytes": 8650,
+      "sha256": "7bdc0c15830c9f8bf5bb78af79c0a7091d9ff23923ae6a93472ede4ea27926fa"
+    },
+    {
+      "path": "tools/check_lz_q1l_v3_right_rear_only.sh",
+      "bytes": 444,
+      "sha256": "41db2b9733196fdd9efe42f784b598ec4aa966b2b049991c7fe42d8b117dfb63"
+    },
+    {
+      "path": "tools/check_lz_q1l_v4_lateral.py",
+      "bytes": 8966,
+      "sha256": "fba5f510bbc593ad78bdc07682c0b6eff50da3de62c5a353e56b5a10a3a05f29"
+    },
+    {
+      "path": "tools/check_lz_q1l_v4_lateral.sh",
+      "bytes": 673,
+      "sha256": "9e32f551838d428306d62e43cfae8976537963c9580a71bb5b87bae3e4ed52e8"
+    },
+    {
+      "path": "tools/compare_lz_q1l_balanceroll200.py",
+      "bytes": 10026,
+      "sha256": "b98efed9063820e01d3af1d3725255dd18dd3d37318690265e0ffdd55a2cd87d"
+    },
+    {
+      "path": "tools/compare_lz_q1l_gait200.py",
+      "bytes": 7015,
+      "sha256": "3f5f8781476e88bf81b77487a408ccf1f7cea9a83411aca559fa96d42379cf6e"
+    },
+    {
+      "path": "tools/compare_lz_q1l_height300.py",
+      "bytes": 8084,
+      "sha256": "9450dc4aef9399cead9c3044d4dd459ecad8b016c1fb85c0048f8417df535eb9"
+    },
+    {
+      "path": "tools/compare_lz_q1l_standfront300.py",
+      "bytes": 9845,
+      "sha256": "48fc75240d354cdb2d32f027ac28a7aa6dc322d5f0bef06d9cb0407212f4aefd"
+    },
+    {
+      "path": "tools/compare_lz_q1l_standfront300_pair.py",
+      "bytes": 9802,
+      "sha256": "ce91f3ea035db96d02bcae3a90794d720d89f7f61cb4d2b0620308b46bca77e5"
+    },
+    {
+      "path": "tools/compare_lz_q1l_upright150.py",
+      "bytes": 9468,
+      "sha256": "ced4223963da3c28cea44057edc5e2c0646a37fa00511bc0b71cd69ca27db6be"
+    },
+    {
+      "path": "tools/diagnose_lateral.py",
+      "bytes": 4151,
+      "sha256": "7025b9de2be625d10c4f678e6d06460e503147dbed55539ee1bf6fc69c54ec43"
+    },
+    {
+      "path": "tools/diagnose_lateral_mechanics.py",
+      "bytes": 11274,
+      "sha256": "f162a527bc1cd569e4db460ac99ef8ec8ff26e2674901a89b772ce1f33a15100"
+    },
+    {
+      "path": "tools/diagnose_lz_q1l_roll_joint_response.py",
+      "bytes": 6613,
+      "sha256": "4ecfdcda93613aef57409a516ad26fd533d9f1bafae80b893257b364e8d8b3ab"
+    },
+    {
+      "path": "tools/diagnose_no_policy_support.py",
+      "bytes": 8457,
+      "sha256": "a2a23394d0c39fd36b78bf57c91f3d9dc95a2caa0cb8d6bb9da77be4c19763da"
+    },
+    {
+      "path": "tools/diagnose_policy_tracking.py",
+      "bytes": 8947,
+      "sha256": "125d0ff0f3036ddf9e1d7d36d06b9893e5b8572dc60b31a1224763dcbb45a7ca"
+    },
+    {
+      "path": "tools/diagnose_standing_support.py",
+      "bytes": 10771,
+      "sha256": "b9ddb1ac1f8e463ef78c0f2594611613807f57ed6126298e601fb984652498ed"
+    },
+    {
+      "path": "tools/eval_height300_checkpoints.py",
+      "bytes": 8465,
+      "sha256": "bca62e0756b8f65927dfbe737859678075cf5a90fa2ddb19ec82d82120b40408"
+    },
+    {
+      "path": "tools/eval_lz_q1l.py",
+      "bytes": 3199,
+      "sha256": "c4882ec8bdad26ba290ab4b1b9d03aade9bdba2e69a27830e90a22081766f54a"
+    },
+    {
+      "path": "tools/eval_lz_q1l_checkpoint_pair.py",
+      "bytes": 2367,
+      "sha256": "7998729734423ab22c89e5cdd036e36f2e259e4f77fcfa3c2c2772a30f65a707"
+    },
+    {
+      "path": "tools/eval_lz_q1l_mirror.py",
+      "bytes": 7256,
+      "sha256": "246982172e8acf7b3359fb6c6c7f0460997bb8a697f524ad1e5ffd08f14f3ccf"
+    },
+    {
+      "path": "tools/eval_lz_q1l_posture.py",
+      "bytes": 8975,
+      "sha256": "73c54e8f44323ffedbc9a1670d082e335305d5bdbbfb41087ef31441c42496e9"
+    },
+    {
+      "path": "tools/eval_lz_q1l_side_load.py",
+      "bytes": 5656,
+      "sha256": "fbcc0bcb0ccd2df1178bad59b1db65594b2a056b253c924afb359f1ddae573f6"
+    },
+    {
+      "path": "tools/eval_lz_q1l_side_load_strong.py",
+      "bytes": 5642,
+      "sha256": "a6cc70f698a7c04fd0a3f8094193a5f227de71855a90c2702d52e9e2f4167625"
+    },
+    {
+      "path": "tools/eval_lz_q1l_switches.py",
+      "bytes": 5816,
+      "sha256": "6fd0d53158d65f4c1dcc7b901c0aa9c4697a7306e6994bf064cfb800819ec0f8"
+    },
+    {
+      "path": "tools/eval_lz_q1l_v3_sweep.py",
+      "bytes": 5016,
+      "sha256": "23aef9ce69b1b258f498fbdb015aa93c8f9a79969db09b1456bd91bcc7af3857"
+    },
+    {
+      "path": "tools/export_v8_training_curves.py",
+      "bytes": 3388,
+      "sha256": "4abd1dff5c8d8c32efb740fb17706a447ea51d420d218851c0639a158139224e"
+    },
+    {
+      "path": "tools/extend_v7_to_500.py",
+      "bytes": 7382,
+      "sha256": "308748500b4f3b5f11cd2a11d8986b6227a01f935194cbcc4a3de5b697c0ec07"
+    },
+    {
+      "path": "tools/launch_lz_q1l_front_pose.py",
+      "bytes": 2523,
+      "sha256": "a0056c7f40a1efd31259f26f7372762b7aa7508b05cec936018b1c58c193a3b7"
+    },
+    {
+      "path": "tools/launch_lz_q1l_lateral_cycle.py",
+      "bytes": 1963,
+      "sha256": "ef2c4d2ce5f261f266db9ee56028648b6ea345e41fe577661cafe0bd2106dee1"
+    },
+    {
+      "path": "tools/launch_lz_q1l_native_side.py",
+      "bytes": 1943,
+      "sha256": "1ed7d0fa441c8f07eba5eff96363aabd6ebd39812796fa9b0600866721bf55f1"
+    },
+    {
+      "path": "tools/launch_lz_q1l_native_side_height.py",
+      "bytes": 2512,
+      "sha256": "4bc573dcf70ef9609115ea6b9785cf6cf303c047c87d11a3cc39bf01b106ee49"
+    },
+    {
+      "path": "tools/launch_lz_q1l_native_side_height1ms.py",
+      "bytes": 2753,
+      "sha256": "d278fcbaff051cbd1436c3bcd4ff8226c7aa3d66afe93365c8b97c0d7c411eb5"
+    },
+    {
+      "path": "tools/launch_lz_q1l_native_side_speed.py",
+      "bytes": 2077,
+      "sha256": "aa40527dddca805b49e769201ae0929aceb0248b550093039d17f23af8203531"
+    },
+    {
+      "path": "tools/launch_lz_q1l_side_coordination.py",
+      "bytes": 2544,
+      "sha256": "e409a27e782878f71b5a83016d7766e29d2af8468e5ec4e8a062f5654fc3b154"
+    },
+    {
+      "path": "tools/launch_lz_q1l_soft_slip.py",
+      "bytes": 2553,
+      "sha256": "f4bdf6489413c7b896f113a94bdfbcff361f35209857d1e75f483c023ef50ee4"
+    },
+    {
+      "path": "tools/launch_lz_q1l_v3_right_rear_only_300.py",
+      "bytes": 6672,
+      "sha256": "99f85620fc7c150378d9daa5417d22e7f2652bfe1e554e31a5346845f08c5ac6"
+    },
+    {
+      "path": "tools/launch_lz_q1l_v3_right_rear_split_600.py",
+      "bytes": 7030,
+      "sha256": "c96caca5b8c3a28aaeca776ea75d5352e0c3b82dfc70b9a1d9f831ef895f25e7"
+    },
+    {
+      "path": "tools/launch_lz_q1l_v4_lateral_500.py",
+      "bytes": 2466,
+      "sha256": "00abce810922acc292a5dfb493d988b07aa875331880d91909d3804787a9d72b"
+    },
+    {
+      "path": "tools/launch_lz_q1l_v8_4ms.py",
+      "bytes": 1899,
+      "sha256": "27433efd5be972c130b7b05d21f45f5123eb8665a41f0581f553a2b7d607d825"
+    },
+    {
+      "path": "tools/plot_lz_q1l_lineage_audit.py",
+      "bytes": 1660,
+      "sha256": "ffef618e7e42dd27b75a9606417ef79e8a4f20c341534921c5fed7502d79bebb"
+    },
+    {
+      "path": "tools/plot_standing_support.py",
+      "bytes": 3705,
+      "sha256": "c6db6be59dbf5542638543228696681ebfaee58699b723dfb001e76fbc3a2a14"
+    },
+    {
+      "path": "tools/publish_lz_q1l_lateral_videos.py",
+      "bytes": 7009,
+      "sha256": "f0dc10d13f7d5d62f0a2508c4dec78fda8517cba236acc802fddc5211149b5f9"
+    },
+    {
+      "path": "tools/queue_lz_q1l_v2_balance_roll.py",
+      "bytes": 7169,
+      "sha256": "41d8cd281313b62f5eac386232a582662affd91f7220ffe892d25800d308a1ed"
+    },
+    {
+      "path": "tools/queue_lz_q1l_v2_gait.py",
+      "bytes": 7060,
+      "sha256": "0a85af81a15aa811496ba7823f1f6e649a2e318a38f40107030d08676dc84618"
+    },
+    {
+      "path": "tools/queue_lz_q1l_v2_gait_height.py",
+      "bytes": 7167,
+      "sha256": "9cf2b7685a70fb50daa6be795500ce3eb641ba7ccdfac8efe8088d61469494bf"
+    },
+    {
+      "path": "tools/queue_lz_q1l_v2_side_load.py",
+      "bytes": 7881,
+      "sha256": "55de0df707486a8a52e72270fce40cc15e1f855f22ca9fef1467c330fc62883f"
+    },
+    {
+      "path": "tools/queue_lz_q1l_v2_side_load_strong.py",
+      "bytes": 7993,
+      "sha256": "8843118de9a0a78f8e62a5ba3e99343b8693c5f8ca4664b34e57e85b00e7cac0"
+    },
+    {
+      "path": "tools/queue_lz_q1l_v2_stand_front.py",
+      "bytes": 7165,
+      "sha256": "a4c9e40285922099f43cc758db79f48b25d5826ca170ba498ba7fd0e137c8d72"
+    },
+    {
+      "path": "tools/queue_lz_q1l_v2_stand_load.py",
+      "bytes": 7141,
+      "sha256": "8ef2c01170c558a7df0d123b390c66e34483290087489f29a3360de8f3b6fbb5"
+    },
+    {
+      "path": "tools/queue_lz_q1l_v2_upright.py",
+      "bytes": 7097,
+      "sha256": "b16a42c898914ab68a4cc8bea70b0936bd1306987375a78e26ee7bbbc423b911"
+    },
+    {
+      "path": "tools/queue_lz_q1l_v3_right_rear_split_800.py",
+      "bytes": 7826,
+      "sha256": "d1796c2737c84e75ac1e5be6134b79e613019f96b8eced241b186e816822b2fd"
+    },
+    {
+      "path": "tools/queue_lz_q1l_v3_sweep.py",
+      "bytes": 9031,
+      "sha256": "eb3f52ad1a791d283242486bfae4f9ccc61c3f1199f6d086b25e98238ae52cdf"
+    },
+    {
+      "path": "tools/record_lz_q1l.py",
+      "bytes": 3308,
+      "sha256": "ae4e009c7169469805a8cf4086ae45079c7122ff7e3d5ed4196cfd4c5d4465a5"
+    },
+    {
+      "path": "tools/record_lz_q1l_lateral.py",
+      "bytes": 6442,
+      "sha256": "91e11b69159283a8e4fa1e7221feaad2d29c6cda01b31012f0152e544b806f9e"
+    },
+    {
+      "path": "tools/restore_selected_models.py",
+      "bytes": 644,
+      "sha256": "abd5fb5b68fafcfdbca57baa61782b893b08ea624e8cc34627188ed82e80189b"
+    },
+    {
+      "path": "tools/run_lz_q1l_estimator_calibration.sh",
+      "bytes": 1044,
+      "sha256": "5b310d8aa61f9d29e76b2c7e273a91738c55a9034b41049ef1957974e116cb54"
+    },
+    {
+      "path": "tools/run_lz_q1l_front_pose.sh",
+      "bytes": 557,
+      "sha256": "9db48b99381751cba63dbde9633aecd794b5a6a2788f6018468248a40585a3d3"
+    },
+    {
+      "path": "tools/run_lz_q1l_lateral_cycle.sh",
+      "bytes": 560,
+      "sha256": "d7ef0daf45bc7fdfc134cab4df067ed9c760a0f0db7f2373e4f07bff14912923"
+    },
+    {
+      "path": "tools/run_lz_q1l_lateral_videos.sh",
+      "bytes": 3278,
+      "sha256": "520fb2f7f67be281661a37c16753c4d7410058e2ef797909964c99407f2acc4f"
+    },
+    {
+      "path": "tools/run_lz_q1l_mirror.sh",
+      "bytes": 1009,
+      "sha256": "89f6f8c19827d301acacb8d553da8ef27eb01d9f0ed2145bb09466b938c6742c"
+    },
+    {
+      "path": "tools/run_lz_q1l_native_side.sh",
+      "bytes": 558,
+      "sha256": "ddb4e6dcd30d8e037a07c574d3bd3689a52b3192aa76e82f0b0dd2f09636e7aa"
+    },
+    {
+      "path": "tools/run_lz_q1l_native_side_height.sh",
+      "bytes": 565,
+      "sha256": "812f06234ea8623d181b8fdb968ae780bf2312647effa219fd35f56059b0f874"
+    },
+    {
+      "path": "tools/run_lz_q1l_native_side_height1ms.sh",
+      "bytes": 568,
+      "sha256": "9776a0d1962547f20836eedbf69794577d78e5960033c3ee45df8f483d2a1fe6"
+    },
+    {
+      "path": "tools/run_lz_q1l_native_side_speed.sh",
+      "bytes": 564,
+      "sha256": "227b3f7864caff326ff99e321482325e3404f585f9b33db82bc13ca3a911cb30"
+    },
+    {
+      "path": "tools/run_lz_q1l_noise_ablation.sh",
+      "bytes": 1203,
+      "sha256": "de3100049b80cfe3f98bd8661b0cfeca1826be9fe12831c2579ce19dbaa3e217"
+    },
+    {
+      "path": "tools/run_lz_q1l_side_coordination.sh",
+      "bytes": 564,
+      "sha256": "e52e02374939b6fce2a4824d7f918ee9f3ab481121312785ff763260f91a4186"
+    },
+    {
+      "path": "tools/run_lz_q1l_soft_slip.sh",
+      "bytes": 556,
+      "sha256": "4679fdaf12f80198b12a4e8fd1a8836e66688853ce3d7fbd944407a7f0bcbd42"
+    },
+    {
+      "path": "tools/run_lz_q1l_v4_lateral_500.sh",
+      "bytes": 534,
+      "sha256": "a1be8897dc0a7e465c4af8bce3872208444ca6745df4b41795159d28444329b6"
+    },
+    {
+      "path": "tools/run_lz_q1l_v8_4ms.sh",
+      "bytes": 553,
+      "sha256": "56f3a4768f2db0f54cfd4a19a96d098f6462ab32ec9e1b630c8666e348121588"
+    },
+    {
+      "path": "tools/run_standing_support_check.sh",
+      "bytes": 1585,
+      "sha256": "7fc55f7a593a42dd59490d44271f6fd539a78ecd6e3d4c0f6adb92c1e25e8fde"
+    },
+    {
+      "path": "tools/run_v1_support_check.sh",
+      "bytes": 891,
+      "sha256": "bc097b4fb7fd6b234ba087308605403c8dedf539d19c4e22cd363eb9f9ec7901"
+    },
+    {
+      "path": "tools/start_lz_q1l_v2_800.sh",
+      "bytes": 3292,
+      "sha256": "7c79692f577d5528ff36e4fec1f75628ecec2e7fc42858b57d7a306ceb1cb741"
+    },
+    {
+      "path": "tools/start_lz_q1l_v2_balance_roll_200.sh",
+      "bytes": 418,
+      "sha256": "a11a90f6ae88f51cb94c9774bb8ce090e32a9e63673dcdbf7d1d7676c9420fba"
+    },
+    {
+      "path": "tools/start_lz_q1l_v2_gait_200.sh",
+      "bytes": 410,
+      "sha256": "4e6ddd5cd17d46f6f61dc265f546e42625de23eaaa40673f3eb2f522e95f5026"
+    },
+    {
+      "path": "tools/start_lz_q1l_v2_gait_height_300.sh",
+      "bytes": 417,
+      "sha256": "6c877ae6a6545c5937e6d5dedbf84ff9081dfa523837bb5ddf9089ad6913d370"
+    },
+    {
+      "path": "tools/start_lz_q1l_v2_posture_100.sh",
+      "bytes": 3188,
+      "sha256": "b7bdb41b3fb021f588ef55634a3c0650870a04669f60ac4344ca99afd731d65b"
+    },
+    {
+      "path": "tools/start_lz_q1l_v2_posture_500.sh",
+      "bytes": 3839,
+      "sha256": "b2eca882236567b688d189cfe074d53cf05f706b4efd590efa8cfe01d8d73d49"
+    },
+    {
+      "path": "tools/start_lz_q1l_v2_side_load_100.sh",
+      "bytes": 415,
+      "sha256": "270c4bb5007432e9e2b95c98750aa6fcbd382d41f1bcba41e17336fb6eb4e484"
+    },
+    {
+      "path": "tools/start_lz_q1l_v2_side_load_strong_300.sh",
+      "bytes": 422,
+      "sha256": "9cfcf7a2413d94e2b6a859d283f7785aadfff041de1c35b58d84dec643194125"
+    },
+    {
+      "path": "tools/start_lz_q1l_v2_stand_front_300.sh",
+      "bytes": 417,
+      "sha256": "1095751ff55adb88be44c05ca715e35f037782481c13abdc71944c9ab51c09f7"
+    },
+    {
+      "path": "tools/start_lz_q1l_v2_stand_load_200.sh",
+      "bytes": 416,
+      "sha256": "fa98d1a0f57dbf35a4e824af3cb74dfdb7f9eec94acd41f9f32280fa4a01f4fa"
+    },
+    {
+      "path": "tools/start_lz_q1l_v2_upright_150.sh",
+      "bytes": 413,
+      "sha256": "63c0b4ea5f81be713f0923c517901a644357ab6ec93839b7ef54e356a5704b44"
+    },
+    {
+      "path": "tools/start_lz_q1l_v3_right_rear_only_300.sh",
+      "bytes": 426,
+      "sha256": "f0389894156be81f92086a0d6c2b12ece1a40b5604a3961e612b11cc99b5ecf3"
+    },
+    {
+      "path": "tools/start_lz_q1l_v3_right_rear_split_600.sh",
+      "bytes": 427,
+      "sha256": "f7e1eef13329d5f5a9cdf520b86a24609a0588594a2c5e8c60c75e3eb11cc9dd"
+    },
+    {
+      "path": "tools/start_lz_q1l_v3_right_rear_split_800.sh",
+      "bytes": 426,
+      "sha256": "0e474be1186d293d6cca48674a8c501cfd67499bf304da57439725e6858531d6"
+    },
+    {
+      "path": "tools/start_lz_q1l_v3_sweep.sh",
+      "bytes": 411,
+      "sha256": "bcbaf550e73e2a4dbed365505bf94372a12cebd1dfc50ee36ebde942e7430e4c"
+    },
+    {
+      "path": "tools/start_v7_extension.sh",
+      "bytes": 606,
+      "sha256": "6b9fa950db9e09e50869de488a3da62caeca6fde0bea11f7cd56d5366f6ab4df"
+    },
+    {
+      "path": "tools/summarize_lz_q1l_calibration.py",
+      "bytes": 5931,
+      "sha256": "a0042d2006efdc764723e425c13e68a5810b564fcaa755fd22cf9fabd1740534"
+    },
+    {
+      "path": "tools/summarize_lz_q1l_lineage_audit.py",
+      "bytes": 3210,
+      "sha256": "ed6f02b7495d930b4312ed99440ee09ee105487197546c97c5d1e91efc1087e7"
+    },
+    {
+      "path": "tools/summarize_lz_q1l_noise_ablation.py",
+      "bytes": 7903,
+      "sha256": "421c11c1d42a65f4e6d51fc615fbd96c0b4ac786734e2e091e4b2ee49b6f1adc"
+    },
+    {
+      "path": "tools/temporal_lz_q1l_lineage_confirmation.py",
+      "bytes": 1225,
+      "sha256": "f0763e504f6220555b4f0b777cc2c023877309a05d984743bd74bccac6fb9126"
+    },
+    {
+      "path": "tools/test_lz_q1l_mirror.py",
+      "bytes": 5656,
+      "sha256": "b40f1b475571041e81cc553747f4323e57ea22eb250efb24a177f363e0f6ad32"
+    },
+    {
+      "path": "tools/train_lz_q1l.py",
+      "bytes": 1133,
+      "sha256": "968dc2c7fee2eb58cf7615ef4834f00353b214f403d3c06f015c611c41195f57"
+    },
+    {
+      "path": "tools/train_lz_q1l_front_pose.py",
+      "bytes": 8006,
+      "sha256": "0f5b99a2eed3da513a80c8d4917ac3d29233ab630f18f3e6ae671203a2515ae3"
+    },
+    {
+      "path": "tools/train_lz_q1l_lateral_cycle.py",
+      "bytes": 10425,
+      "sha256": "dc5c188acd9aa6d8a04084069b447f73d15036c9c1698ff319e61ea541fe2b2e"
+    },
+    {
+      "path": "tools/train_lz_q1l_native_side.py",
+      "bytes": 11184,
+      "sha256": "78f6750f5008f3df11b915534207f2323fb748bb5cb3b75492d5de9c3a785aa3"
+    },
+    {
+      "path": "tools/train_lz_q1l_native_side_height.py",
+      "bytes": 13979,
+      "sha256": "18b24c66cf7ac8a15bf6ae69b8d6148303d414a685b3fd375eb60522d9c7b2d1"
+    },
+    {
+      "path": "tools/train_lz_q1l_native_side_height1ms.py",
+      "bytes": 14760,
+      "sha256": "30d4332389f71dada2823941928b3959fe418e8781da113a088bce157b553ec4"
+    },
+    {
+      "path": "tools/train_lz_q1l_native_side_speed.py",
+      "bytes": 12650,
+      "sha256": "ef819668aac38109b2eac1ecc6d449729275a443314dee7c46d6f3abff8ff67d"
+    },
+    {
+      "path": "tools/train_lz_q1l_noise_ablation.py",
+      "bytes": 12524,
+      "sha256": "4eb25457161d29b89f65e158ef1ab5ee58c25accac84e3d0fed2de51485fd94f"
+    },
+    {
+      "path": "tools/train_lz_q1l_side_coordination.py",
+      "bytes": 8065,
+      "sha256": "d99c00ff77dfbf192cbd92708e7259f76c8881ca4744e501df5d381f01b00601"
+    },
+    {
+      "path": "tools/train_lz_q1l_soft_slip.py",
+      "bytes": 8056,
+      "sha256": "28048554dc75bb0e9d6ea271711cf06c3ce9722a8d12014f9ced58b0b1467b3a"
+    },
+    {
+      "path": "tools/train_lz_q1l_v1_support_500.py",
+      "bytes": 9958,
+      "sha256": "bcc9b9ffd985a889f0238be4316e1d0ce5a2e0fcd77ea6c501f1924921f865c1"
+    },
+    {
+      "path": "tools/train_lz_q1l_v1_support_500.sh",
+      "bytes": 2393,
+      "sha256": "8c16a5134078b925553276821a7fa50aca48e8056a9db270cfacb9cf6ebea433"
+    },
+    {
+      "path": "tools/train_lz_q1l_v2_balance_roll.py",
+      "bytes": 8098,
+      "sha256": "596f362ada9afd14eff95f88576da2037d7609602a71c52671b197df9d3fefb4"
+    },
+    {
+      "path": "tools/train_lz_q1l_v2_gait.py",
+      "bytes": 7609,
+      "sha256": "5dbac763f2939d22b63b5ddbc27302747a4dcbb8561e1322f909d99803ce22c7"
+    },
+    {
+      "path": "tools/train_lz_q1l_v2_gait_height.py",
+      "bytes": 7685,
+      "sha256": "6ec759acc277749a58b776fbce9b484eb2333f99d42ec7989518d8edcdc2c521"
+    },
+    {
+      "path": "tools/train_lz_q1l_v2_posture.py",
+      "bytes": 11401,
+      "sha256": "17bc944ee4ca2f548dd07a1874b6c09ae7e3d0f214e282ceae14441d167f6645"
+    },
+    {
+      "path": "tools/train_lz_q1l_v2_side_load.py",
+      "bytes": 8297,
+      "sha256": "4806e6595a2397fb4dec137bf93cb3b5a7bf20a2768a1260540f4a7149a4ecb9"
+    },
+    {
+      "path": "tools/train_lz_q1l_v2_side_load_strong.py",
+      "bytes": 8372,
+      "sha256": "f5364bb170937fb1a9c99a86259f0b5aeac552af0c3630dfb46066717d5328fa"
+    },
+    {
+      "path": "tools/train_lz_q1l_v2_stand_front.py",
+      "bytes": 8209,
+      "sha256": "949b4e63ca083819d945e9c49bbc1b3184d6d9baa35749c0e570bbbcd7d2edf4"
+    },
+    {
+      "path": "tools/train_lz_q1l_v2_stand_load.py",
+      "bytes": 8313,
+      "sha256": "a6e219dbc35dfaedae82cadee7969daa56b10127a12e759646781e8f21973719"
+    },
+    {
+      "path": "tools/train_lz_q1l_v2_unified.py",
+      "bytes": 9044,
+      "sha256": "b2e251009525adae3cb6e0d1fde1463fc86aaed8bcbf33539f4a706c72dbdcd8"
+    },
+    {
+      "path": "tools/train_lz_q1l_v2_upright.py",
+      "bytes": 7552,
+      "sha256": "b9791c567df9e1fec5caec1ee84bdc6ec006ec699593c91d5caec1a914b274aa"
+    },
+    {
+      "path": "tools/train_lz_q1l_v3_rear_teacher.py",
+      "bytes": 8687,
+      "sha256": "0df9c9e5917beeb7c78e48bfb8877932aa6cfe2eac869ce2303f6b0f0711a327"
+    },
+    {
+      "path": "tools/train_lz_q1l_v3_right_rear_only.py",
+      "bytes": 9634,
+      "sha256": "3cf87cf8f41154c13b31d5c9617486139236fd9ad65d370de647f1a56d383168"
+    },
+    {
+      "path": "tools/train_lz_q1l_v3_right_rear_split.py",
+      "bytes": 10849,
+      "sha256": "76b56e2f5369d485ba30a192a4c2fa9380a7839716bd8994fae03a230428acae"
+    },
+    {
+      "path": "tools/train_lz_q1l_v3_right_rear_split_extend.py",
+      "bytes": 10938,
+      "sha256": "ad6237f5919b4e7bff0f845580c0841cf580d0d884341af401f98b211f9908c1"
+    },
+    {
+      "path": "tools/train_lz_q1l_v4_100.sh",
+      "bytes": 1640,
+      "sha256": "96c17146b3730920ea4dab0815459991c8e493142155f7488f128b381f8d5bcb"
+    },
+    {
+      "path": "tools/train_lz_q1l_v4_lateral.py",
+      "bytes": 4897,
+      "sha256": "9d0fea50b42f17d24e75e80e7921c1b7bc2a6d2dd579e975ea2c0f0e91d0f8c6"
+    },
+    {
+      "path": "tools/train_lz_q1l_v5_100.sh",
+      "bytes": 2229,
+      "sha256": "8d5561275c02b687e6a50c351b905711b9df74c828b7a3131e5f19c06995d4ed"
+    },
+    {
+      "path": "tools/train_lz_q1l_v6_50.sh",
+      "bytes": 2271,
+      "sha256": "a35a90d39521a389e6ad32c425e99ff43e473e04440cfe0d71fb5fb9d09605e0"
+    },
+    {
+      "path": "tools/train_lz_q1l_v7_50.sh",
+      "bytes": 2314,
+      "sha256": "72f44b2aff62279e14e2d3cdedc28406e560a07bd9936c73108bb43a6fd5babb"
+    },
+    {
+      "path": "tools/train_lz_q1l_v7_from_v2_200.py",
+      "bytes": 3423,
+      "sha256": "aa9ee6630d750ce55318d61d6450fefca521f00c1a4839062a647e4453fc4518"
+    },
+    {
+      "path": "tools/train_lz_q1l_v7_from_v2_200.sh",
+      "bytes": 2369,
+      "sha256": "82674ff496134ceb9b4f9cbd166775df0d158f274cd4fa0b56a141704969e216"
+    },
+    {
+      "path": "tools/train_lz_q1l_v8_4ms.py",
+      "bytes": 8576,
+      "sha256": "a277886afd2906e8fff13b4810019d87b3d1836ab6a3954bf4662ef426573b0b"
+    },
+    {
+      "path": "tools/train_lz_q1l_v8_from_v7_200.py",
+      "bytes": 6138,
+      "sha256": "2654289398284ec00fd79f6b0e2892e785a7a9242a217863e809e5495cc23a78"
+    },
+    {
+      "path": "tools/train_lz_q1l_v8_from_v7_200.sh",
+      "bytes": 2813,
+      "sha256": "f60434bd22e409dd01c8a5700b1290507a34e4e97e60eecb40ad76a6758973d5"
+    },
+    {
+      "path": "tools/write_lz_q1l_lineage_report.py",
+      "bytes": 12544,
+      "sha256": "106dde2ce359dcdcfee4fa9511a946d77134dbd55f4ea3aa0994ee2565a6f400"
+    }
+  ],
+  "description": "Hashes exclude this manifest itself; .git is not part of backup inventory."
+}
