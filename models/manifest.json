@@ -32,8 +32,19 @@
       "original_run": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/flat_lz_q1l_soft_slip/soft_slip_300_20261029_181955_3497700",
       "task": "lz_q1l_flat_soft_slip",
       "restore_path": "HIMLoco/legged_gym/logs2/flat_lz_q1l_soft_slip/soft_slip_300_20261029_181955_3497700/model_300.pt"
+    },
+    {
+      "name": "forward_2mps",
+      "path": "models/forward_2mps/model_500.pt",
+      "sha256": "4d0fa8bc538fc4438a881686d1467b46dcb61c14e7d92dfc273e795e927b4c8e",
+      "bytes": 8567185,
+      "role": "2 m/s forward policy; lateral drift remains in simulation",
+      "source": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/flat_lz_q1l_continuous_rh/continuous_rh_from300_200_20261031_234941_250698/model_500.pt",
+      "original_run": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/flat_lz_q1l_continuous_rh/continuous_rh_from300_200_20261031_234941_250698",
+      "task": "lz_q1l_flat_continuous_rh",
+      "restore_path": "HIMLoco/legged_gym/logs2/flat_lz_q1l_continuous_rh/continuous_rh_from300_200_20261031_234941_250698/model_500.pt"
     }
   ],
-  "scope": "Exactly three user-selected checkpoints; old runs not included. Checkpoints copied byte-for-byte, optimizer states preserved if present in source.",
+  "scope": "Selected checkpoints only; original standing, forward and lateral models plus the 2 m/s forward policy. Checkpoints copied byte-for-byte.",
   "source_project": "/home/xiaohengli/Program/robo_competition"
 }
