@@ -1,0 +1,106 @@
+{
+  "policy/export_manifest.json": {
+    "source": "HIMLoco/legged_gym/logs2/baselines/straight_two_band_return_line_20261103/export_manifest.json",
+    "sha256": "c4582df2b6928c4ecf53ed6fda4c10b56c7732eb75e80ea65c740e1e8bce7fb4"
+  },
+  "policy/manifest.json": {
+    "source": "HIMLoco/legged_gym/logs2/baselines/straight_two_band_return_line_20261103/manifest.json",
+    "sha256": "5c3c58689989c20dce71897e0c641e2879ebf4a254b2d2ebe9fcb5d3397c46a7"
+  },
+  "policy/model700_bands.pt": {
+    "source": "HIMLoco/legged_gym/logs2/baselines/straight_two_band_return_line_20261103/model700_bands.pt",
+    "sha256": "109c87fb85abb565840990497a04aa003632cf164896b332073b9246545a5e30"
+  },
+  "policy/evidence/evaluation_setup.json": {
+    "source": "HIMLoco/legged_gym/logs2/baselines/straight_two_band_return_line_20261103/evidence/evaluation_setup.json",
+    "sha256": "d04c9c80c85d30fd054cf45235bb4759c94db4cf214d3e2b4da4f5520b08ce8d"
+  },
+  "policy/evidence/previous_current.json": {
+    "source": "HIMLoco/legged_gym/logs2/baselines/straight_two_band_return_line_20261103/evidence/previous_current.json",
+    "sha256": "34959c5cdcac997b9a993ad5216437de279ff1e72ce54c826f4c371f87dec7b7"
+  },
+  "policy/evidence/evaluation_summary.json": {
+    "source": "HIMLoco/legged_gym/logs2/baselines/straight_two_band_return_line_20261103/evidence/evaluation_summary.json",
+    "sha256": "74ef2fd5a07325df032e16ac073997f70f49ef62d64d81f76aaca5506efd130c"
+  },
+  "reference/training/env_config.json": {
+    "source": "HIMLoco/legged_gym/logs2/flat_lz_q1l_two_bands/20261103_235327_2429766/band1/env_config.json",
+    "sha256": "6ff79cd2da0918b40ffb35a6992d16a308584d650e0af855c65c25da24f092ca"
+  },
+  "reference/training/train_config.json": {
+    "source": "HIMLoco/legged_gym/logs2/flat_lz_q1l_two_bands/20261103_235327_2429766/band1/train_config.json",
+    "sha256": "89c3a12e26d0bc05aa4317f0ca022b9d6736b70aeb903838ba9cf99905e9ba58"
+  },
+  "reference/export/bundle.py": {
+    "source": "tools/band700/bundle.py",
+    "sha256": "426cb28948618ef9e69ddf7470471aca7f7f3dd256e6874be3cc2b01cdb21d3b"
+  },
+  "reference/export/routing.py": {
+    "source": "tools/band700/routing.py",
+    "sha256": "5fda571bad6646ee98aa2ab556b14e8cd2c396ae8a4c2d97ed53d6ceef9a8874"
+  },
+  "reference/lz_q1l_forward_baseline_20261103.md": {
+    "source": "docs/lz_q1l_forward_baseline_20261103.md",
+    "sha256": "bcb413e0710ff30af4c6369878d5f46f89d0669233c27503f3cc272b99ebc042"
+  },
+  "reference/robot_params_LZ-Q1L.md": {
+    "source": "docs/robot_params_LZ-Q1L.md",
+    "sha256": "b0647971acaff9ad93c1ea91e78179b37774d8dea3d3556658974f07fd0ea2cd"
+  },
+  "reference/sdk/joint_actuator/actuator_config/robot_default_config.yaml": {
+    "source": "2026年移动-蓝思杯培训资料/2026年移动-蓝思杯培训资料/赛道二开发/02-模型与SDK/解压/joint_actuator/actuator_config/robot_default_config.yaml",
+    "sha256": "c43ed603c91b2f8347a97062e37ee1e291f4e2994ad34bf23f3a71eb0ec5bd4e"
+  },
+  "reference/sdk/joint_actuator/actuator_config/quadruped_small17_actuator/actuator_config.json": {
+    "source": "2026年移动-蓝思杯培训资料/2026年移动-蓝思杯培训资料/赛道二开发/02-模型与SDK/解压/joint_actuator/actuator_config/quadruped_small17_actuator/actuator_config.json",
+    "sha256": "43d0466d2beaea4ca5e9d2b6242c7747ffa66497fd122db0b7bd47e44a98285c"
+  },
+  "reference/sdk/joint_actuator/actuator_config/quadruped_small17_actuator/actuator_params_config.json": {
+    "source": "2026年移动-蓝思杯培训资料/2026年移动-蓝思杯培训资料/赛道二开发/02-模型与SDK/解压/joint_actuator/actuator_config/quadruped_small17_actuator/actuator_params_config.json",
+    "sha256": "75c50e240ac4d037804e0c0ed3f5858ab8a125cdd317d6ef9c3806fd9c63265f"
+  },
+  "reference/sdk/joint_actuator/actuator_config/quadruped_small17_actuator/joint_config.yaml": {
+    "source": "2026年移动-蓝思杯培训资料/2026年移动-蓝思杯培训资料/赛道二开发/02-模型与SDK/解压/joint_actuator/actuator_config/quadruped_small17_actuator/joint_config.yaml",
+    "sha256": "2983bbe755d4257ad6745e0816ede601ebe0bfc9f05f9f5034d512c931eb233c"
+  },
+  "reference/sdk/joint_actuator/src/joint_actuator_node.cpp": {
+    "source": "2026年移动-蓝思杯培训资料/2026年移动-蓝思杯培训资料/赛道二开发/02-模型与SDK/解压/joint_actuator/src/joint_actuator_node.cpp",
+    "sha256": "fc3e5cec8f3e39a667cc7d5329dd465042c2847569be3bffdc48cb97f2c986d5"
+  },
+  "reference/sdk/imu/robot_sensors/src/yis320_node.cpp": {
+    "source": "2026年移动-蓝思杯培训资料/2026年移动-蓝思杯培训资料/赛道二开发/02-模型与SDK/解压/imu/robot_sensors/src/yis320_node.cpp",
+    "sha256": "3e52e454951b510fb970ae2f1c32af8c5fd8608dd4e8eb4b815aa27ed202c1ed"
+  },
+  "reference/sdk/robot_common_interface/msg/JointCommand.msg": {
+    "source": "2026年移动-蓝思杯培训资料/2026年移动-蓝思杯培训资料/赛道二开发/02-模型与SDK/解压/robot_common_interface/msg/JointCommand.msg",
+    "sha256": "90f01b5335df795374b79ce8cc542b41d2cbd2f21ad43c693c40b7093d6b87b0"
+  },
+  "reference/sdk/robot_common_interface/msg/JointActuatorData.msg": {
+    "source": "2026年移动-蓝思杯培训资料/2026年移动-蓝思杯培训资料/赛道二开发/02-模型与SDK/解压/robot_common_interface/msg/JointActuatorData.msg",
+    "sha256": "2f0531858ff24f54c615a6e22bb73668b358b487531b3b1080eb500708c22658"
+  },
+  "reference/sdk/robot_common_interface/msg/RobotException.msg": {
+    "source": "2026年移动-蓝思杯培训资料/2026年移动-蓝思杯培训资料/赛道二开发/02-模型与SDK/解压/robot_common_interface/msg/RobotException.msg",
+    "sha256": "97b84b9cf0430f4384f52db344dfb383c939ba09c47c39517817baf68230dbbf"
+  },
+  "reference/lz_q1l.urdf": {
+    "source": "HIMLoco/legged_gym/resources/robots/lz_q1l/urdf/lz_q1l.urdf",
+    "sha256": "3c4a5128e3ca05fd803de8859290354aad2b76137da11d0a8397dd97f7d59dda"
+  },
+  "reference/implementation/legged_robot.py": {
+    "source": "HIMLoco/legged_gym/legged_gym/envs/base/legged_robot.py",
+    "sha256": "4be9c8a9dac2e41a755465410837bb0f7c01bd5a911d175b1b726c73f477546d"
+  },
+  "reference/implementation/lz_q1l_2.py": {
+    "source": "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2.py",
+    "sha256": "cae7ad99c0fd066538c156ec0288c1e557d4012f49fd8536282bd21effc36591"
+  },
+  "reference/implementation/evaluate_lz_q1l_three_band.py": {
+    "source": "tools/evaluate_lz_q1l_three_band.py",
+    "sha256": "9a13651462331e9f3907353d77db4222ac8cec952081238b6c3de65cc9f10dc9"
+  },
+  "reference/training/run_metadata.json": {
+    "source": "HIMLoco/legged_gym/logs2/flat_lz_q1l_two_bands/20261103_235327_2429766/band1/run_metadata.json",
+    "sha256": "565b2be3be11e728179fc4a8aa479c6c67de8aee22884bd3024666345644cecb"
+  }
+}

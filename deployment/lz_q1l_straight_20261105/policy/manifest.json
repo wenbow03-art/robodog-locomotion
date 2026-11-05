@@ -1,0 +1,30 @@
+{
+  "name": "straight_two_band_return_line_20261103",
+  "role": "current straight-walking baseline",
+  "task": "lz_q1l_flat_three_band",
+  "artifact": "model700_bands.pt",
+  "format": "TorchScript",
+  "sha256": "109c87fb85abb565840990497a04aa003632cf164896b332073b9246545a5e30",
+  "source_run": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/flat_lz_q1l_two_bands/20261103_235327_2429766",
+  "source_export_manifest": "export_manifest.json",
+  "standing_and_transition": {
+    "self_contained": true,
+    "original_stand_walk_baseline_manifest": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/baselines/stand_walk800_20261027/manifest.json",
+    "gait150_sha256": "655a5022f2e1404c8f7c3dfbb670cc8235710f78e7550e72f2343e4e2c5e9747",
+    "model800_sha256": "23d99708723bacb0a5cc5c473a66e76f076a3444a738a1a27c1a9f9d6b937086",
+    "stand_walk_blend_s": 0.3,
+    "extra_stand_mixer": false
+  },
+  "evaluation": {
+    "summary": "evidence/evaluation_summary.json",
+    "setup": "evidence/evaluation_setup.json",
+    "paired_comparison_old_run": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/flat_lz_q1l_two_bands/20261103_235327_2429766/final/evaluation/summary.json",
+    "paired_comparison_new_run": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/flat_lz_q1l_two_bands/20261105_002534_anchor_recovery_500/final/evaluation/summary.json",
+    "paired_starts": 20,
+    "command_accel_mps2": 1.0,
+    "target_hold_after_ramp_s": 18.0,
+    "all_trials_no_reset": true
+  },
+  "known_tradeoff": "Compared with the later 500-update ratio/recovery-start model, this selected model has lower mean lateral endpoint offset at 1.25 and 1.5 m/s, but higher offset at 2 m/s. It is the user's selected straight baseline; the speed-specific limitations remain documented in the paired summaries.",
+  "inference_interface": "At 50 Hz: history[N,270], signed yaw rate (rad/s), heading and lateral-offset errors (N,3), history_ids[N,14] int64 initialized to ones, alphas[N,2] initialized to zeros -> executed action[N,12], next_ids, next_alphas. Reset recurrent state on environment reset. Straight commands only. The policy includes its own stand/walk blend."
+}

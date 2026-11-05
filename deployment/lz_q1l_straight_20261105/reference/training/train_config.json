@@ -1,0 +1,61 @@
+{
+  "algorithm": {
+    "clip_param": 0.2,
+    "desired_kl": 0.01,
+    "entropy_coef": 0.01,
+    "gamma": 0.99,
+    "lam": 0.95,
+    "learning_rate": 5e-06,
+    "max_grad_norm": 1.0,
+    "num_learning_epochs": 5,
+    "num_mini_batches": 4,
+    "other_legs_coef": 0.0,
+    "rear_teacher_coef": 0.1,
+    "rear_teacher_forward_coef": 0.3,
+    "schedule": "fixed",
+    "teacher_ema_tau": 0.05,
+    "teacher_forward_threshold": 0.1,
+    "teacher_max_samples": 4096,
+    "teacher_other_command_tolerance": 0.05,
+    "teacher_stand_threshold": 0.05,
+    "use_clipped_value_loss": true,
+    "value_loss_coef": 1.0
+  },
+  "init_member_classes": {},
+  "policy": {
+    "activation": "elu",
+    "actor_hidden_dims": [
+      512,
+      256,
+      128
+    ],
+    "continuous_rh_forward": true,
+    "critic_hidden_dims": [
+      512,
+      256,
+      128
+    ],
+    "init_noise_std": 1.0,
+    "right_rear_hidden_dims": [
+      128,
+      64
+    ]
+  },
+  "runner": {
+    "algorithm_class_name": "LowPPOAlgorithm",
+    "checkpoint": -1,
+    "experiment_name": "flat_lz_q1l_three_band",
+    "load_run": -1,
+    "log_directory": "logs2",
+    "max_iterations": 0,
+    "num_steps_per_env": 100,
+    "policy_class_name": "LowActor",
+    "resume": false,
+    "resume_path": null,
+    "run_name": "",
+    "runner_class_name": "HIMEmaRearTeacherRunner",
+    "save_interval": 50
+  },
+  "runner_class_name": "HIMOnPolicyRunner",
+  "seed": 1
+}

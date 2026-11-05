@@ -1,0 +1,19 @@
+{
+  "source": "Organizer SDK, 2026年移动-蓝思杯培训资料/2026年移动-蓝思杯培训资料/赛道二开发/02-模型与SDK/解压/robot_common_interface",
+  "modified": false,
+  "files": {
+    "CMakeLists.txt": "0b7e7b277190b74aada35d9fad9641536f0ee9ff151c11cda96e53a5404425fb",
+    "msg/ControlSource.msg": "78fc4afed5fa94f933b4b080ec7dbd280de203786d63389afc509204b949b532",
+    "msg/JointActuatorData.msg": "2f0531858ff24f54c615a6e22bb73668b358b487531b3b1080eb500708c22658",
+    "msg/JointCommand.msg": "90f01b5335df795374b79ce8cc542b41d2cbd2f21ad43c693c40b7093d6b87b0",
+    "msg/MotionCommands.msg": "b104b33f9240881bab248296c98cfb4aa0f58aed126b141b68063054e7ba2673",
+    "msg/RobotActionData.msg": "9ce6087852f4b7851a6f9703c6058801158599dd04bcbb57483d46e9de32cf99",
+    "msg/RobotControlFeedback.msg": "36e336840c735b09b78ba54817da8ea1cb3eb596a701d1e9f568566f9afdf28a",
+    "msg/RobotException.msg": "97b84b9cf0430f4384f52db344dfb383c939ba09c47c39517817baf68230dbbf",
+    "msg/TouchSensor.msg": "e54ff32c39568e35a2169f58831ddab42967f830ea0683cfa67f04eb705405ff",
+    "package.xml": "deece320ea4a9bbd868a955642a6182c9c9d014f399e3591dbca266abe02af0b",
+    "srv/GaitSwitch.srv": "7013131be7480236735d4234c14e0310711b2a0c7e15351951634a593c449e31",
+    "srv/RobotControlCommand.srv": "1c9123c0e0453b2a7ed3391dd5c983ea66c5b8640a834a4a9d6cab4bc2d8c476",
+    "srv/SimulationReset.srv": "28700f4883f8dfb53ba2f6527ced6732341492f2316885aef2938fac4585bc7c"
+  }
+}

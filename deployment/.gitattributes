@@ -1,0 +1,10 @@
+# Keep the small deployment model in ordinary Git for a self-contained clone.
+*.pt -filter -text
+*.py text eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+SHA256SUMS text eol=lf
+# These files are checksum-pinned source copies; preserve original bytes.
+lz_q1l_straight_20261105/** -text
+ros2_ws/src/** -text

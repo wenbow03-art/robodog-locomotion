@@ -1,0 +1,2 @@
+int64 exception_id
+string exception_msg

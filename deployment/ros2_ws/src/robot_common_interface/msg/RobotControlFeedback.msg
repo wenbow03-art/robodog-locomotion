@@ -1,0 +1,4 @@
+int64 robot_mode
+int32 robot_state
+robot_common_interface/RobotException exception_data
+robot_common_interface/RobotActionData action_data

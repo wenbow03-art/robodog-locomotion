@@ -1,0 +1,4 @@
+# Offline model check profile: CPython 3.10, Linux x86_64.
+# ROS2 tools use the ROS distribution's system Python, not this venv.
+--index-url https://download.pytorch.org/whl/cpu
+-r validation/cpu-python310-freeze.txt

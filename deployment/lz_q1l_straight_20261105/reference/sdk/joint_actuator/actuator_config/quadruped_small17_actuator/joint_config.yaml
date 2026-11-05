@@ -1,0 +1,45 @@
+joint_config:
+
+  joint_direction:
+    FL_ABAD_JOINT: -1
+    FL_HIP_JOINT:  -1
+    FL_KNEE_JOINT:  1.5
+    FR_ABAD_JOINT: -1
+    FR_HIP_JOINT:   1
+    FR_KNEE_JOINT: -1.5
+    RL_ABAD_JOINT:  1
+    RL_HIP_JOINT:  -1
+    RL_KNEE_JOINT:  1.5
+    RR_ABAD_JOINT:  1
+    RR_HIP_JOINT:   1
+    RR_KNEE_JOINT: -1.5
+
+  joint_lower:
+    FL_ABAD_JOINT:  -60
+    FL_HIP_JOINT:   -150
+    FL_KNEE_JOINT:  -150
+    FR_ABAD_JOINT:  -60
+    FR_HIP_JOINT:   -150
+    FR_KNEE_JOINT:  -150
+    RL_ABAD_JOINT:  -60
+    RL_HIP_JOINT:   -150
+    RL_KNEE_JOINT:  -150
+    RR_ABAD_JOINT:  -60
+    RR_HIP_JOINT:   -150
+    RR_KNEE_JOINT:  -150
+
+  joint_upper:
+    FL_ABAD_JOINT:  60
+    FL_HIP_JOINT:   150
+    FL_KNEE_JOINT:  150
+    FR_ABAD_JOINT:  60
+    FR_HIP_JOINT:   150
+    FR_KNEE_JOINT:  150
+    RL_ABAD_JOINT:  60
+    RL_HIP_JOINT:   150
+    RL_KNEE_JOINT:  150
+    RR_ABAD_JOINT:  60
+    RR_HIP_JOINT:   150
+    RR_KNEE_JOINT:  150
+
+  

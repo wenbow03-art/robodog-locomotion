@@ -1,0 +1,16 @@
+{
+  "files_verified": 35,
+  "python": "3.10.12",
+  "platform": "x86_64",
+  "hardware_ready": false,
+  "model_check": {
+    "torch_version": "2.5.1+cpu",
+    "device": "cpu",
+    "steps_per_run": 290,
+    "runs": 2,
+    "reset_replay_exact": true,
+    "all_outputs_finite": true,
+    "forward_schema": "forward(__torch__.Combined self, Tensor h, Tensor errors, Tensor hist, Tensor alphas) -> ((Tensor, Tensor, Tensor))",
+    "scope": "synthetic interface check; no simulated or physical robot"
+  }
+}

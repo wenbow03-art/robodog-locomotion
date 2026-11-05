@@ -1,0 +1,174 @@
+{
+  "return_line": true,
+  "band": 1,
+  "bounds": [
+    0.5,
+    1.0
+  ],
+  "task": "lz_q1l_flat_three_band",
+  "source_checkpoint": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/flat_lz_q1l_mixed_path/mixed_path_25stand_75forward_from550_150_20261101_171928_755064/model_700.pt",
+  "source_sha256": "ade0f70d291caeeb27b0fa57e99438302caca38f66b416f8a4e9b1f19aec9a96",
+  "standing_checkpoint": "/home/xiaohengli/Program/robo_competition/HIMLoco/legged_gym/logs2/baselines/stand_walk800_20261027/gait_150.pt",
+  "standing_sha256": "655a5022f2e1404c8f7c3dfbb670cc8235710f78e7550e72f2343e4e2c5e9747",
+  "preflight": false,
+  "configuration_changes": {
+    "acceleration.high_target_probability": {
+      "v1": 0.75,
+      "this_run": 0.0
+    },
+    "acceleration.retention_speed_range": {
+      "v1": [
+        0.2,
+        1.0
+      ],
+      "this_run": [
+        0.5,
+        1.0
+      ]
+    },
+    "commands.pure_forward_speed_range": {
+      "v1": [
+        0.2,
+        2.0
+      ],
+      "this_run": [
+        0.2,
+        1.0
+      ]
+    },
+    "commands.ranges.lin_vel_x": {
+      "v1": [
+        0.0,
+        2.0
+      ],
+      "this_run": [
+        0.0,
+        1.0
+      ]
+    },
+    "rewards.return_line_lookahead_m": {
+      "v1": null,
+      "this_run": 1.2
+    },
+    "rewards.return_line_max_heading_deg": {
+      "v1": null,
+      "this_run": 8.0
+    },
+    "rewards.return_line_max_rate": {
+      "v1": null,
+      "this_run": 0.2
+    },
+    "rewards.return_line_rate_gain": {
+      "v1": null,
+      "this_run": 1.0
+    },
+    "rewards.scales.forward_path_offset": {
+      "v1": -0.8,
+      "this_run": -16.0
+    }
+  },
+  "train_configuration_changes": {
+    "runner.algorithm_class_name": {
+      "v1": "HIMEmaRearTeacherPPO",
+      "this_run": "LowPPOAlgorithm"
+    },
+    "runner.experiment_name": {
+      "v1": "flat_lz_q1l_mixed_path",
+      "this_run": "flat_lz_q1l_three_band"
+    },
+    "runner.policy_class_name": {
+      "v1": "HIMStanceWidthActorCritic",
+      "this_run": "LowActor"
+    }
+  },
+  "requested_updates": 300,
+  "save_interval": 50,
+  "pid": 2430043,
+  "gpu": "GPU-13617fc8-1298-8d94-cbe1-5afdcb1d341c",
+  "code_sha256": {
+    "HIMLoco/legged_gym/legged_gym/envs/__init__.py": "906daab765032b737b4ad5bb4148c5deb386a88f3a1eb0bc8b8f989ccc74d0f8",
+    "HIMLoco/legged_gym/legged_gym/envs/base/legged_robot.py": "4be9c8a9dac2e41a755465410837bb0f7c01bd5a911d175b1b726c73f477546d",
+    "HIMLoco/legged_gym/legged_gym/envs/base/legged_robot_config.py": "a0230fa99691a3dd28f077bf30a2432efb998def950b2be98f623fd1b303d55b",
+    "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l.py": "ee697c70634f5dffb0b1e3020064ced5f3a1d9c02d7d53b48d58e3a64210901f",
+    "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2.py": "cae7ad99c0fd066538c156ec0288c1e557d4012f49fd8536282bd21effc36591",
+    "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2_config.py": "2ac44e9f15fae70bc0b1b8e4c5954c20efb13244d00e43daa21b953bae0488d6",
+    "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2_low_path.py": "cf67291f94ae8f81945e4171401677c003caae9674bc849a222d2a60da3ef17c",
+    "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2_mixed_path.py": "c514e195c8d256e5324a16f1c1b86464aa28395a4eb37e5314866236b4f50c8b",
+    "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2_path.py": "b7fe49c9a91724103ad38dd0022ce02cd9721840da6a70c03df2f2fe90fbaa7d",
+    "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_2_path_config.py": "396295e536ce245d393191f32b4906ac8aa269bc08286f9a6eaa06500b919a42",
+    "HIMLoco/legged_gym/legged_gym/envs/lz_q1l/lz_q1l_config.py": "6c76372268c79b00c2791f8a895d8013f060563c3a55cfdd2bdadb9badf54db7",
+    "HIMLoco/legged_gym/legged_gym/utils/lz_q1l_acceleration.py": "9dd04d99b012b70717d67a37960dc6b2c21a1d01522b7b0387cc0cc71e83be6b",
+    "HIMLoco/legged_gym/legged_gym/utils/lz_q1l_mirror.py": "edd8b4e397902c4175b961595f1a936e2cf82abb708fac116f438cd6b4f5b216",
+    "HIMLoco/legged_gym/legged_gym/utils/lz_q1l_stance_width.py": "7aa13be13517fa7237fede8a588ce82144364e048b68c214b946f1777f19fe66",
+    "HIMLoco/legged_gym/resources/robots/lz_q1l/urdf/lz_q1l.urdf": "3c4a5128e3ca05fd803de8859290354aad2b76137da11d0a8397dd97f7d59dda",
+    "HIMLoco/rsl_rl/rsl_rl/algorithms/him_ema_rear_teacher_ppo.py": "16a57bb8ed08e1b8d5d34754e519b228c97e7f5379cd6f8395d3ad5dbd98c8d7",
+    "HIMLoco/rsl_rl/rsl_rl/algorithms/him_ppo.py": "f02ae94281ebe88f16d8532b84a9e49d29ebe47ba4eb4ae3b105995373a7cdd3",
+    "HIMLoco/rsl_rl/rsl_rl/algorithms/him_rear_teacher_ppo.py": "9946578b199c604dbf1f97fb5cbb3b5d48297d594c7dbff420370419793b9cb5",
+    "HIMLoco/rsl_rl/rsl_rl/algorithms/him_right_rear_only_ppo.py": "98aba8f038efb316f5563f311cfe9ad730f8d2bd99fb2a797cc164896f4023c7",
+    "HIMLoco/rsl_rl/rsl_rl/algorithms/him_right_rear_split_ppo.py": "566265fbca3ba46b4024c6e86bdd7c026b55e996c7a8e840d4637b0ba8b0ece9",
+    "HIMLoco/rsl_rl/rsl_rl/modules/him_actor_critic.py": "c516cb3b7bc3b6734182547bacaa6eb6fb0604fac9a0708ff87d869a79c17cc6",
+    "HIMLoco/rsl_rl/rsl_rl/modules/him_estimator.py": "a0cb97016fce9714168f357358dd50d0fb2eaba0017fe37ed5bbc469727024d2",
+    "HIMLoco/rsl_rl/rsl_rl/modules/him_low_path.py": "79e5ddb67cbacf181a6dac78894b318859e3a3270243804ff34e266a130220f7",
+    "HIMLoco/rsl_rl/rsl_rl/modules/him_right_rear_only.py": "32e77fee961213011531d5d396b35999c3efd8e38e07dcc21af45666ded8d79b",
+    "HIMLoco/rsl_rl/rsl_rl/modules/him_stance_width_actor.py": "b2b3e201bfd6e38455ce13cdb5342057f58d9818aabf9f42e510112d6c6c995f",
+    "HIMLoco/rsl_rl/rsl_rl/runners/him_ema_rear_teacher_runner.py": "0ac2c580da3edeea8afb4e36ede0f7c012f4d02b9b27a54495ed7624d119cb17",
+    "HIMLoco/rsl_rl/rsl_rl/runners/him_on_policy_runner.py": "0525e4d13800f4ba0bb83bb75320d8e1968b63c71fb526ef32473b1457b54645",
+    "tools/band700/bundle.py": "42c34eeb645eddb2d64aff9dc9e96e4cbd84c9300b7da4f612f2deb4225b7a8b",
+    "tools/band700/env.py": "e8831ce1d9c4aab67202b7d4bbc6a5d1eab1af9fcef2ade3e008f59231fc0309",
+    "tools/band700/routing.py": "5fda571bad6646ee98aa2ab556b14e8cd2c396ae8a4c2d97ed53d6ceef9a8874",
+    "tools/check_lz_q1l_forward_acceleration.py": "dd5b710a778c7fbecc3b13bea71040b84f440a418962172a92f04cd50c840eea",
+    "tools/check_lz_q1l_v2_gait.py": "76a89e9fd50fa79d66b32170153ff2fb459aa08ae5a2a4bdb5e188e6d1d378ca",
+    "tools/check_lz_q1l_v3_right_rear_only.py": "7bdc0c15830c9f8bf5bb78af79c0a7091d9ff23923ae6a93472ede4ea27926fa",
+    "tools/check_lz_q1l_v3_right_rear_only.sh": "41db2b9733196fdd9efe42f784b598ec4aa966b2b049991c7fe42d8b117dfb63",
+    "tools/eval_lz_q1l_posture.py": "73c54e8f44323ffedbc9a1670d082e335305d5bdbbfb41087ef31441c42496e9",
+    "tools/evaluate_lz_q1l_continuous_rh.py": "204d63a454ee8f621f79013554cda78a198c085aa27376d730b03d56b26097ec",
+    "tools/evaluate_lz_q1l_forward_acceleration.py": "27c150e12dde34ef364532b65fa59a0007cf39b06d155f0e5c2563a5a053f0f2",
+    "tools/evaluate_lz_q1l_low_path.py": "177fa3fb5f902fc3e4338751cb49eefc691894c7b2ca7c4c325aecb2bb3175d8",
+    "tools/evaluate_lz_q1l_mixed_path.py": "bf28d6295472782b75295360e8b5cf4c8c732221dcca17c043351a11af5f28e2",
+    "tools/evaluate_lz_q1l_three_band.py": "9a13651462331e9f3907353d77db4222ac8cec952081238b6c3de65cc9f10dc9",
+    "tools/launch_lz_q1l_continuous_rh.py": "3928386b745d38f23e4285d011f78d2469442c6bc947fe20eddff05d2a0ec760",
+    "tools/launch_lz_q1l_forward_acceleration.py": "4bd2e19277c4ad9d818fc1e30dde772ca61f914014e1da3298432c840903f046",
+    "tools/launch_lz_q1l_low_path.py": "8b3cbe26cf7ce001a1f359e7bc95dc3482fb9a070308d5576ccd53cba4f746fb",
+    "tools/launch_lz_q1l_mixed_path.py": "541239401657021e795b91987c5daf9a9572138b7387d2bba368ee3fa67116c0",
+    "tools/launch_lz_q1l_three_band.py": "1d0fdf96c5ae84821e1fc8d5bf5088f8c533e415c589bff835c900215063ceb0",
+    "tools/launch_lz_q1l_uniform_path.py": "715b25825ef7b467a307e3f6948020443c98bbfcdb8f88345e322ec3b4e32cf4",
+    "tools/launch_lz_q1l_v3_right_rear_split_600.py": "c96caca5b8c3a28aaeca776ea75d5352e0c3b82dfc70b9a1d9f831ef895f25e7",
+    "tools/lz_q1l_acceleration_common.py": "0ed448c728d1cccb169ab49c58d4c2f1c4fbdb637136ae1ba71c8dc918a35df2",
+    "tools/lz_q1l_continuous_rh_common.py": "da10a20d872651e9ec0c932a8c9cc66c083501acdc5a2882fa5a4d735273b12c",
+    "tools/lz_q1l_low_path_runner.py": "12ad33a13afaddf3c860ef534dbf8b366fcae1207796dae84e3a751a6636e873",
+    "tools/lz_q1l_main_actor_common.py": "dae4782f0451b78de197b6b73f66f2bea7bb2f1139bb1cc3fe50155f964cad90",
+    "tools/queue_lz_q1l_v2_gait.py": "0a85af81a15aa811496ba7823f1f6e649a2e318a38f40107030d08676dc84618",
+    "tools/queue_lz_q1l_v3_right_rear_split_800.py": "d1796c2737c84e75ac1e5be6134b79e613019f96b8eced241b186e816822b2fd",
+    "tools/review_lz_q1l_uniform_path.py": "7440795fa8aebb4bc204d4e4448d6dba0076571db08b47be6a0ab2a98eb07081",
+    "tools/run_lz_q1l_continuous_rh.sh": "22ca2d1381ff749ff43a5e1570c4b95939bbf7febc36dd4d260a453a46a657ec",
+    "tools/run_lz_q1l_forward_acceleration.sh": "be4b60af7134f95ec8ddbb9580affbec30cc2ad1b95e9d634addb1e104dfb682",
+    "tools/run_lz_q1l_forward_speed.sh": "51f297c17a542dce82c25dfa917925806a4f19093cb69fd5e4a55c14a1aa2be9",
+    "tools/run_lz_q1l_forward_speed2.sh": "eb2cf3ac09bb00eccbe163f10f94f43bdc5a3fe7dd2a2cd4ecaf54520eeab024",
+    "tools/run_lz_q1l_low_path.sh": "fe1939ec36087bd5f44d38eb9301259b6ba3d2838e74b0dcd36679384951045e",
+    "tools/run_lz_q1l_mixed_path.sh": "abc242386a0b4a133702fe574a9a2e23f75e9be6c74f2ca71b4e3e66b321cec2",
+    "tools/run_lz_q1l_stance_width.sh": "feb0ca35bdeaeb947344f1222816bb0b112e36faef76f264cb670fbaf66692cb",
+    "tools/run_lz_q1l_three_band.sh": "f0fd9448adb4b9a578167e58bfa6c325b6c36d6b9b44155aad2e91b682723e81",
+    "tools/run_lz_q1l_uniform_path.sh": "b1d622598da018f9474de0e570178795321f757c8adab48d8696a8f3f51af0ee",
+    "tools/start_lz_q1l_v2_gait_200.sh": "4e6ddd5cd17d46f6f61dc265f546e42625de23eaaa40673f3eb2f522e95f5026",
+    "tools/start_lz_q1l_v2_posture_500.sh": "b2eca882236567b688d189cfe074d53cf05f706b4efd590efa8cfe01d8d73d49",
+    "tools/start_lz_q1l_v3_right_rear_split_600.sh": "f7e1eef13329d5f5a9cdf520b86a24609a0588594a2c5e8c60c75e3eb11cc9dd",
+    "tools/start_lz_q1l_v3_right_rear_split_800.sh": "0e474be1186d293d6cca48674a8c501cfd67499bf304da57439725e6858531d6",
+    "tools/train_lz_q1l_continuous_rh.py": "bb8b604f86bb31d56120ac085c990a3c862794616f5c922e4fff9fac89aa5ed1",
+    "tools/train_lz_q1l_forward_acceleration.py": "d5ed7f19ce18265f4cfecdaa60183bb7d444a38ec61df80d8535b1a4ea07a8f2",
+    "tools/train_lz_q1l_forward_speed.py": "4df0e3441dcd88da274169d20b640440bff1ed41c10a9d2f6226e3c3c39ee484",
+    "tools/train_lz_q1l_forward_speed2.py": "55c57e9fac6518b2bb9b942b07d8441fc5d8497e075685c5491799f0d39d710d",
+    "tools/train_lz_q1l_low_path.py": "2141178f65540ea030e420d20a836be0b1774fc4d78e4ea469a0ebd7de0d75b1",
+    "tools/train_lz_q1l_mixed_path.py": "fe5a964af7da83ec03cf27e9ef4ac0cab7a15e3e83dfd2104f423f17ac2d511b",
+    "tools/train_lz_q1l_stance_width.py": "0991a10db81678d2b14f66c59ea4231f38615decae1fff35c05589da1635f168",
+    "tools/train_lz_q1l_three_band.py": "b86a26c511ebc3e6d67943705587cc542eb67cc712dd24b1d555d395ae77ff3c",
+    "tools/train_lz_q1l_uniform_path.py": "80326a0a42b6ffc142026851363b2869201013b504b3d1ec14e6769e537ccb7e",
+    "tools/train_lz_q1l_v1_support_500.py": "bcc9b9ffd985a889f0238be4316e1d0ce5a2e0fcd77ea6c501f1924921f865c1",
+    "tools/train_lz_q1l_v2_gait.py": "5dbac763f2939d22b63b5ddbc27302747a4dcbb8561e1322f909d99803ce22c7",
+    "tools/train_lz_q1l_v2_posture.py": "17bc944ee4ca2f548dd07a1874b6c09ae7e3d0f214e282ceae14441d167f6645",
+    "tools/train_lz_q1l_v2_unified.py": "b2e251009525adae3cb6e0d1fde1463fc86aaed8bcbf33539f4a706c72dbdcd8",
+    "tools/train_lz_q1l_v3_right_rear_only.py": "3cf87cf8f41154c13b31d5c9617486139236fd9ad65d370de647f1a56d383168",
+    "tools/train_lz_q1l_v3_right_rear_split.py": "76b56e2f5369d485ba30a192a4c2fa9380a7839716bd8994fae03a230428acae",
+    "tools/train_lz_q1l_v3_right_rear_split_extend.py": "ad6237f5919b4e7bff0f845580c0841cf580d0d884341af401f98b211f9908c1"
+  },
+  "note": "No quality early stop. Fixed acceleration 0.5; moving targets uniform within recorded band. Gate fades over 15 policy steps; max correction 0.4 action units = 0.10 rad. Simulator resets on resume."
+}

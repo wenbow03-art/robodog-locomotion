@@ -1,0 +1,12 @@
+robot_default_config:
+
+  robot_type: "quadruped"     #类型: "quadruped" or "humanoid"
+  robot_model: "small17"        #型号: quadruped:"mid80" or "small17" ; humanoid:"lens160" or "lens110"
+  ethercat_device: "eth0"   #以太网设备名称,可通过命令"ifconfig"查看
+  use_imu_pkg: 1              #是否使用串口IMU的ros包:0为不使用,1为使用
+
+  enable_test:
+    enable_motor: 1   #是否使用电机:0为使用mujoco仿真，1为使用
+    enable_KpKd: 1    #是否使用KpKd控制器:0为不使用(kp,kd都为0),1为使用
+    enable_playback_ctrl: 0 #是否使用回放数据控制器:0为不使用,1为使用
+

@@ -1,0 +1,106 @@
+{
+    "actuator_list": [
+        {
+            "ethercat_slave_id": 1,
+            "boardcast": true,
+            "can_id_list": [
+                {
+                    "can_id": 1,
+                    "joint_name": "FL_ABAD_JOINT",
+                    "port": 1,
+                    "is_can_fd": false,
+                    "type": "lens",
+                    "model": "lens_kaite"
+                },
+                {
+                    "can_id": 2,
+                    "joint_name": "FL_HIP_JOINT",
+                    "port": 1,
+                    "is_can_fd": false,
+                    "type": "lens",
+                    "model": "lens_kaite"
+                },
+                {
+                    "can_id": 3,
+                    "joint_name": "FL_KNEE_JOINT",
+                    "port": 1,
+                    "is_can_fd": false,
+                    "type": "lens",
+                    "model": "lens_kaite"
+                },
+                {
+                    "can_id": 4,
+                    "joint_name": "FR_ABAD_JOINT",
+                    "port": 1,
+                    "is_can_fd": false,
+                    "type": "lens",
+                    "model": "lens_kaite"
+                },
+                {
+                    "can_id": 5,
+                    "joint_name": "FR_HIP_JOINT",
+                    "port": 1,
+                    "is_can_fd": false,
+                    "type": "lens",
+                    "model": "lens_kaite"
+                },
+                {
+                    "can_id": 6,
+                    "joint_name": "FR_KNEE_JOINT",
+                    "port": 1,
+                    "is_can_fd": false,
+                    "type": "lens",
+                    "model": "lens_kaite"
+                },
+                {
+                    "can_id": 1,
+                    "joint_name": "RL_ABAD_JOINT",
+                    "port": 2,
+                    "is_can_fd": false,
+                    "type": "lens",
+                    "model": "lens_kaite"
+                },
+                {
+                    "can_id": 2,
+                    "joint_name": "RL_HIP_JOINT",
+                    "port": 2,
+                    "is_can_fd": false,
+                    "type": "lens",
+                    "model": "lens_kaite"
+                },
+                {
+                    "can_id": 3,
+                    "joint_name": "RL_KNEE_JOINT",
+                    "port": 2,
+                    "is_can_fd": false,
+                    "type": "lens",
+                    "model": "lens_kaite"
+                },
+                {
+                    "can_id": 4,
+                    "joint_name": "RR_ABAD_JOINT",
+                    "port": 2,
+                    "is_can_fd": false,
+                    "type": "lens",
+                    "model": "lens_kaite"
+                },
+                {
+                    "can_id": 5,
+                    "joint_name": "RR_HIP_JOINT",
+                    "port": 2,
+                    "is_can_fd": false,
+                    "type": "lens",
+                    "model": "lens_kaite"
+                },
+                {
+                    "can_id": 6,
+                    "joint_name": "RR_KNEE_JOINT",
+                    "port": 2,
+                    "is_can_fd": false,
+                    "type": "lens",
+                    "model": "lens_kaite"
+                }
+            ]
+        }
+    ]
+}

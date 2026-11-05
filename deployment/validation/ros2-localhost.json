@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "ros_distro": "humble",
+  "python": "system Python3.10",
+  "message_package_build": "passed",
+  "scope": "Synthetic localhost-only ROS domain 193, no robot connected, no actuator command publisher",
+  "synthetic_capture_counts": {
+    "/joint_actuator_states": 146,
+    "/imu": 144,
+    "/joint_actuator_other_data": 144
+  },
+  "synthetic_invalid_samples": {
+    "/joint_actuator_states": 0,
+    "/imu": 0,
+    "/joint_actuator_other_data": 0
+  },
+  "missing_required_topics_exit_code": 2,
+  "hardware_ready": false
+}

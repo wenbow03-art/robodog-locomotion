@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "date": "2026-11-05",
+  "host_arch": "x86_64",
+  "python": "3.8.20",
+  "torch": "1.10.0+cu113",
+  "model_sha256": "109c87fb85abb565840990497a04aa003632cf164896b332073b9246545a5e30",
+  "cpu_inference": {
+    "runs": 2,
+    "steps_each": 290,
+    "outputs_finite": true,
+    "shapes_and_dtypes_match": true,
+    "routing_and_blend_state_valid": true,
+    "reset_replay_exact": true,
+    "command_scales_match": true
+  },
+  "static_checks": {
+    "python_syntax": "passed",
+    "json_parse": "passed",
+    "bash_syntax": "passed",
+    "message_validation_cases": 6
+  },
+  "hardware_ready": false,
+  "not_executed": [
+    "SSH connection",
+    "file upload",
+    "live ROS subscriptions",
+    "ARM board inference",
+    "motor control"
+  ],
+  "scope": "Synthetic model interface and message checks only; no physics/simulation quality claim."
+}

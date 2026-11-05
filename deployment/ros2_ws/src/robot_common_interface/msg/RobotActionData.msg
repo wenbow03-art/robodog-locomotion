@@ -1,0 +1,3 @@
+string action_id
+string action_name
+int32 action_progress
